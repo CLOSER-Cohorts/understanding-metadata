@@ -1,0 +1,1859 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../1.3%20FAIR/">
+      
+      
+        <link rel="next" href="../2.2%20Metadata%20in%20the%20research%20lifecycle/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 2.1 Introduction to metadata - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#unit-21-introduction-to-metadata" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 2.1 Introduction to metadata
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introductory module
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introductory module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.0%20Module%20Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Module Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Research%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Research%20data%20management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3%20FAIR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAIR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Introduction to Metadata
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Metadata
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-study-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit study time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intended-learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcome
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to metadata
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction to metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#an-unlabelled-can" class="md-nav__link">
+    <span class="md-ellipsis">
+      An unlabelled can
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-labelled-can" class="md-nav__link">
+    <span class="md-ellipsis">
+      A labelled can
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-do-companies-create-this-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why do companies create this information?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#an-analogy-for-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      An analogy for metadata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-role-of-metadata-in-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      The role of metadata in research
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-a-unlabelled-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding a unlabelled dataset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-can-metadata-describe-in-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      What can metadata describe in research
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What can metadata describe in research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the study
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the dataset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the variables
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-data-collection-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the data collection process
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges-of-not-having-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenges of not having metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata terms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defining-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defining metadata
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metadata-vs-data-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata vs. data documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata vs. data documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metadata-is-structured-machine-readable-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata is structured, machine-readable documentation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-and-fair" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata and FAIR
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata and FAIR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fair-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Further resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ???????
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2%20Metadata%20in%20the%20research%20lifecycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata in the Research Data Lifecycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3%20Using%20metadata%20-%20discover%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Controlled%20vocabularies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Controlled Vocabularies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Metadata%20standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata Standards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Introduction%20summary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-study-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit study time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intended-learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcome
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction-to-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction to metadata
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction to metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#an-unlabelled-can" class="md-nav__link">
+    <span class="md-ellipsis">
+      An unlabelled can
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-labelled-can" class="md-nav__link">
+    <span class="md-ellipsis">
+      A labelled can
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-do-companies-create-this-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why do companies create this information?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#an-analogy-for-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      An analogy for metadata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-role-of-metadata-in-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      The role of metadata in research
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#understanding-a-unlabelled-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding a unlabelled dataset
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-can-metadata-describe-in-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      What can metadata describe in research
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What can metadata describe in research">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-study" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the study
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the dataset
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the variables
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#information-about-the-data-collection-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information about the data collection process
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenges-of-not-having-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Challenges of not having metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata terms
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defining-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Defining metadata
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Defining metadata">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metadata-vs-data-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata vs. data documentation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata vs. data documentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#metadata-is-structured-machine-readable-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata is structured, machine-readable documentation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benefits-of-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Benefits of metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-and-fair" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata and FAIR
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata and FAIR">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fair-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR tools
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Further resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      ???????
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="unit-21-introduction-to-metadata">Unit 2.1 Introduction to metadata</h1>
+<h2 id="unit-overview">Unit overview</h2>
+<h3 id="unit-study-time">Unit study time</h3>
+<ul>
+<li>2 hours</li>
+</ul>
+<h3 id="intended-learning-outcome">Intended learning outcome</h3>
+<p>By the end of the unit, you'll be able to...</p>
+<ul>
+<li>Understand what metadata is and how it relates to research data</li>
+<li>Explain the purpose of metadata in research</li>
+<li>Explain how metadata differentiates from other forms of data documentation</li>
+<li>Undertsand the benefits of creating and using metadata</li>
+<li>Identify metadata's role in FAIR</li>
+<li>Idenitfy who might request metadata</li>
+</ul>
+<h2 id="introduction-to-metadata">Introduction to metadata</h2>
+<p>In the last <a href="../1.3%20FAIR/">unit 1.3</a> we identified metadata as a fundamental component of FAIR data. In this unit, we'll look at what metadata is.</p>
+<p>To do this, let's start with an analogy.</p>
+<h3 id="an-unlabelled-can">An unlabelled can</h3>
+<p>Imagine it's a hot day and you're thirsty. You come across a plain, sealed drink can ...</p>
+<p><img src="../img/plain-can.png" alt="Alt Text" width="180" height="280"></p>
+<p>Do you know what's inside the can? Would you want to drink it?</p>
+<p>Because the can doesn't have a label, we don't know ...
+- What's inside the can
+- Where it's come from
+- When it was made
+- Who made it</p>
+<p>It's unlikely that anyone will want to drink from that can, and if they do, it's a risk!</p>
+<h3 id="a-labelled-can">A labelled can</h3>
+<p>Alternatively, if you came across this can in a local supermarket, would you know what is inside it? Would you be happy to drink it?</p>
+<p><img src="../img/IrnBru-F.jpg" alt="Alt Text" width="175" height="300"> <img src="../img/IrnBru-B.jpg" alt="Alt Text" width="175" height="300"></p>
+<p>Most people would be more confident about what is inside the can, as the packaging contains...</p>
+<ul>
+<li>The brand</li>
+<li>Description of the drink and its flavour</li>
+<li>Ingredients list</li>
+<li>Nutritional information</li>
+<li>Production factory</li>
+<li>Location of production</li>
+<li>Producer contact information</li>
+<li>Best before date</li>
+</ul>
+<p>With the packaging, you have more information about what's inside the can and whether you can trust it's contents. The can is also more trustworthy if it was found in a shop alongside other similar drinks, as you'd trust the shop to have stocked genuine products. You'd also be able to read and compare the labels of other products, and make an informed decision about the drink you pick. <sup>[1]</sup></p>
+<h3 id="why-do-companies-create-this-information">Why do companies create this information?</h3>
+<p>It can take companies more time and resources to produce detailed packaging for products, so why do it?</p>
+<p><strong>Companies' personal interest</strong></p>
+<p>Companies want people to find and buy their product. If they can't, they will fail at their goal of selling and making profit. Having good information about the product makes it more trustworthy and engaging for customers so they are more likely to buy it.</p>
+<p><strong>Legally required</strong></p>
+<p>It may be legally required information, such as an ingredients list or place of origin. Without this, companies would not be able to produce and sell their porducts.</p>
+<p><strong>Consumer needs</strong></p>
+<p>The consumer of the drink requires this information in order to make an informed decision. For example, someone who needs to measure their sugar intake for their health needs a clear nutritional label. Someone with allergies will require information about ingredients and the factory of production.</p>
+<h3 id="an-analogy-for-metadata">An analogy for metadata</h3>
+<p>The liquid inside the can represents a dataset from a research study. </p>
+<p>The label that provides information about the drink (the brand, location of production, ingredients list, nutritional information etc.) is the metadata which describes the dataset, telling us what data the dataset contains and how it was produced.</p>
+<p>Like the unlabelled can, if a research project doesn't have metadata, we don't know any contextual information about the project such as <em>who</em> collected the data, <em>when</em> and <em>where.</em> We also don't know what data exists within the datasets.</p>
+<p>Similar to storing the can in the supermarket, data repositories and catalogues store metadata for different research projects in the same place, allowing us to search and compare across different projects. This also increases the trustworthiness of the project and it's data. We will cover data catalogues and repositories in more detail in <a href="2.3 Using metadata%3A%20discover data.md">unit 2.3</a></p>
+<p>In the same way having product information helps companies sell their products, metadata helps researchers make their data discoverable and reusable, leading to more citations of their data. Creating robust metadata can also be a funding requirement for a research project. </p>
+<h2 id="the-role-of-metadata-in-research">The role of metadata in research</h2>
+<p>Metadata is a type of documentation that accompanies a research project. It describes the research project and its data, and it's normally created by the person(s) who conducted the research. It helps the person conducting the research to organise and manage their data. Metadata also provides people outside of the research project with the context and information they need to understand the data and interpret it in a meaningful way. </p>
+<p>As a starting point, metadata can be considered as the who/what/where/when/why/how of the data. </p>
+<ul>
+<li>Who collected the data?</li>
+<li>What data did they collect?</li>
+<li>When was the data collected?</li>
+<li>Where was the data collected?</li>
+<li>Why was the data collected?</li>
+<li>How was the data collected?</li>
+</ul>
+<h2 id="understanding-a-unlabelled-dataset">Understanding a unlabelled dataset</h2>
+<p>Let’s apply what you have learnt so far to a research context.</p>
+<p>In this example, you're conducting a research project exploring the behaviours of young people in 1965-1970 in the Northern regions of England. </p>
+<p>To do this, you'll want to use secondary data from that time period. Secondary data can also save researchers' time, money, and effort by using data that already exists rather than duplicating the work of others. </p>
+<p>When identifying relevant secondary data for your project, you come across this dataset <sup>[2]</sup> below . You need to determine whether it would be useful for your research.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>N622</th>
+<th>N1171</th>
+<th>N2REGION</th>
+<th>N1112</th>
+<th>N1261</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>6</td>
+<td>-2</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1</td>
+<td>-1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1</td>
+<td>4</td>
+<td>10</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1</td>
+<td>4</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>2</td>
+<td>6</td>
+<td>2</td>
+<td>1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>8</td>
+<td>2</td>
+<td>2</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>1</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>11</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>12</td>
+<td>2</td>
+<td>-1</td>
+<td>1</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>13</td>
+<td>1</td>
+<td>3</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>14</td>
+<td>2</td>
+<td>2</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>15</td>
+<td>2</td>
+<td>-1</td>
+<td>7</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>16</td>
+<td>2</td>
+<td>1</td>
+<td>7</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>17</td>
+<td>2</td>
+<td>3</td>
+<td>2</td>
+<td>-1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>2</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>19</td>
+<td>2</td>
+<td>6</td>
+<td>10</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Just like the unlabelled can, you don't have the information you need to understand the dataset to assess if it's useful for secondary data for your research.</p>
+<p>What information would you need to determine whether this dataset is relevant to your project?</p>
+<p>What information would you need to certify and trust this data? </p>
+<p>List some questions you need answered to understand the unlabelled dataset.</p>
+<details>
+<summary><b>Questions about the dataset</b></summary>
+<p></p>
+
+<ul>
+<li><b>Who</b> created the data?</li>
+<li><b>Who</b> is the data about?</li>
+<li><b>Who</b> conducted the study?</li>
+<li><b>What</b> study is this dataset a part of?</li>
+<li><b>What</b> concepts is this dataset measuring?</li>
+<li><b>What</b> do the column headings mean?</li>
+<li><b>What</b> do the numbers mean?</li>
+<li><b>Where</b> did the study take place?</li>
+<li><b>Where</b> was the data collected?</li>
+<li><b>When</b> did the study run?</li>
+<li><b>When</b> was the data collected?</li>
+<li><b>Why</b> did the study take place?</li>
+<li><b>How</b> was the data collected?</li>
+<li><b>How</b> is missing data represented?</li>
+</ul>
+
+To answer these questions, we need metadata - the who/what/where/when/why/how of the data. 
+
+</details>
+
+<h2 id="what-can-metadata-describe-in-research">What can metadata describe in research</h2>
+<p>Metadata can describe different areas and components of your research. In this way, we might group the questions by their focus.</p>
+<p><strong>About the study</strong></p>
+<ul>
+<li>What study is this dataset a part of?</li>
+<li>Why did the study take place?</li>
+<li>Who conducted the study?</li>
+<li>When did the study run?</li>
+</ul>
+<p><strong>About the dataset</strong></p>
+<ul>
+<li>What concepts is this dataset measuring?</li>
+<li>Who created the data?</li>
+<li>When was the data collected?</li>
+<li>Where was the data collected?</li>
+<li>How was the data collected?</li>
+</ul>
+<p><strong>About the data</strong></p>
+<ul>
+<li>What do the column headings mean?</li>
+<li>What do the numbers mean?</li>
+<li>Who is the data about?</li>
+<li>How is missing data represented?</li>
+</ul>
+<h3 id="information-about-the-study">Information about the study</h3>
+<p>Metadata can describe the overall study. This may also be called high level metadata, as it gives a high level overview of the whole research effort.</p>
+<p>For example ...</p>
+<p><strong>What study is this dataset a part of?</strong> </p>
+<ul>
+<li>Title of the study</li>
+<li>Subject or topic of the study</li>
+<li>Title of datasets prodcued by the study</li>
+</ul>
+<p><strong>Why did the study take place?</strong></p>
+<ul>
+<li>Abstract giving context for the study</li>
+</ul>
+<p><strong>Who conducted the study?</strong></p>
+<ul>
+<li>Principal investigator of the study </li>
+<li>Publisher of the study</li>
+<li>Funder of the study</li>
+</ul>
+<p><strong>When did the study run?</strong></p>
+<ul>
+<li>Date study started</li>
+<li>Date study completed</li>
+<li>Date made available</li>
+</ul>
+<p><strong>Where did the study take place?</strong></p>
+<ul>
+<li>Country / countries</li>
+<li>Region / regions</li>
+<li>City / cities</li>
+</ul>
+<p>Study level metadata gives us a quick snapshot of what the research is about. This is particularly useful when we're looking through a large amount of research. It also gives us supporting information around the dataset, that may not be included in the dataset itself, for example who to contact for further information about the project.</p>
+<p>You can find study level metadata for the unlabelled dataset <a href="https://discovery.closer.ac.uk/Item/uk.cls.ncds/524c8f92-493f-4660-90c4-0aa7ac3d2640/63">on this webpage.</a> </p>
+<p>By looking at the metadata on this webpage, we know that the study is conducted across England, Scotland and Wales and was produced as part of the National Child Development Study. </p>
+<p>Do we have enough information to know if this particular dataset would be relevant and/or useful for our research? What other information might we need?</p>
+<h3 id="information-about-the-dataset">Information about the dataset</h3>
+<p>While the overall study may be related to our own, we need information about the individual dataset within a study in order to assess whether it's relevant to us, for example, when the dataset was created.</p>
+<p><strong>What concepts is this dataset measuring?</strong></p>
+<ul>
+<li>Abstract and/or dataset description</li>
+</ul>
+<p><strong>Who created the data?</strong></p>
+<ul>
+<li>Person(s) who conducted research</li>
+</ul>
+<p><strong>When was the data collected?</strong></p>
+<ul>
+<li>Start date of data collection</li>
+<li>End date of data collection </li>
+<li>Date data was published</li>
+</ul>
+<p><strong>Where was the data collected?</strong></p>
+<ul>
+<li>Country / countries</li>
+<li>Region / regions</li>
+<li>City / cities</li>
+</ul>
+<p><strong>How was the data collected?</strong></p>
+<ul>
+<li>Data collection instrument</li>
+</ul>
+<p>You can dataset level metadata for the unlabelled dataset <a href="https://discovery.closer.ac.uk/Item/uk.cls.ncds/524c8f92-493f-4660-90c4-0aa7ac3d2640/63">on this webpage.</a> </p>
+<p>Through exploring the dataset level metadata, we know that the data was collected in 1969 and that it was collected via a survey.</p>
+<h3 id="information-about-the-variables">Information about the variables</h3>
+<p>Accessing datasets can be time-consuming and expensive. You may read a dataset's metadata and think it's relevant to your project as it list similar topics or geographical regions. However, when you then access the dataset, it doesn't contain the data you were expecting for example, it has a different focus within the topic area or uses measurements that are not relevant for your work.</p>
+<p>Having information about the data inside a dataset before you access it allows you to make an informed decision about its relevance to your project. This makes the process more efficient and cost-effective.</p>
+<p>Variable metadata is a key tool that enables us to do this.</p>
+<p>What are the variables in the above dataset?</p>
+<details>
+<summary><b>The variables are...</b></summary>
+<p></p>
+
+<ul>
+<li>N622</li>
+<li>N1171</li>
+<li>N2REGION</li>
+<li>N1112</li>
+<li>N1261</li>
+</ul>
+
+Simply put, variables are the header of the columns in tabular data.
+
+</details>
+
+<p>We use the term variable all the time, but what is it's definition?</p>
+<blockquote>
+<p>Variable is a characteristic of a unit being observed. A variable might be the answer of a question, have an administrative source, or be derived from other variables.</p>
+</blockquote>
+<details>
+<summary><b>Examples of a variable could be ...</b></summary>
+<p></p>
+
+Examples of a variable...
+<ul>
+<li>Height</li>
+<li>Weight</li>
+<li>Age</li>
+</ul>
+
+In research, the data you collect about this variable is what makes up our datasets. For example ...
+<ul>
+<li>Height: 1.73m, 1.45m, 1.67m</li>
+<li>Weight: 57kg, 69kg, 71kg</li>
+<li>Age: 29 years, 37 years, 64 years</li>
+</ul>
+
+You can collect variable data direct from research activity e.g. measuring someone with a tape measure, weighing someone with scales, asking someone to state their age in a survey. You can also derive data from other variable data. For example, you can calculate someone's BMI from the variable data collected for height, weight and age. This would make BMI a <b>derived variable</b>, as it is calculated through other variables.
+
+</details>
+
+<p>Information about the variables can also help us manage and understand our own research as we handle and process large volumes of data. If you have restricted access datasets, this information helps protect the security of your data as the information describes what type of data the study collected, not the data itself. </p>
+<p><strong>What do the column headings mean?</strong></p>
+<ul>
+<li>Variables the dataset contains</li>
+</ul>
+<p><strong>What do the numbers mean?</strong></p>
+<ul>
+<li>Numeric values / codes</li>
+<li>Unit of measurement</li>
+<li>Missing data values</li>
+</ul>
+<p><strong>What type of data are they?</strong></p>
+<ul>
+<li>Data type: numeric, string</li>
+</ul>
+<p><strong>How was the data collected</strong></p>
+<ul>
+<li>Data collection instrument</li>
+</ul>
+<p>Information about the data can be found <a href="https://discovery.closer.ac.uk/item/uk.cls.ncds/b3909a8c-2118-4f82-ad34-245ce610ea07">on this webpage</a>. You can click into different variables to gain insight into what data they collect. </p>
+<p>https://rdf-vocabulary.ddialliance.org/discovery.html#variable-and-variable-definition</p>
+<h3 id="information-about-the-data-collection-process">Information about the data collection process</h3>
+<p>We've explored metadata about the study, the dataset and the data itself. What other metadata might be helpful for further understanding the dataset?</p>
+<p>We might also want to explore further information about the data collection process. For example, we know the data was collected by a survey.</p>
+<p>To understand more about the survey, we may ask ...</p>
+<p><strong>What questions were included in the survey?</strong></p>
+<ul>
+<li>The order of the questions</li>
+<li>Whether a question is linked to another question</li>
+</ul>
+<p><strong>What was the intent/concept of the survey?</strong></p>
+<ul>
+<li>Key themes/topics linked to the question</li>
+<li>Does the question relate to an assessment scheme</li>
+</ul>
+<p><strong>What were the response options for each question?</strong></p>
+<ul>
+<li>The format of the response e.g. free text, multiple choice, scale</li>
+</ul>
+<p><strong>What was the data capture?</strong></p>
+<ul>
+<li>Method of recording answers e.g. self-completed or recorded by another person</li>
+<li>The mode of delivery e.g. online or paper survey</li>
+</ul>
+<p>Having information about how the is data collected further helps us build a picture of the research project. For example, if we noticed that there were lots of missing or invalid responses and saw that the data collection method was a self-completed questionnaire, we could infer that the research project may have had difficulty around participants completing the questionnaire correctly.</p>
+<p>Metadata about the questionnaire <a href="https://discovery.closer.ac.uk/item/uk.cls.ncds/b8698e54-0501-46e4-962c-cf6e2906fe8e/2">can be explored here</a></p>
+<h2 id="challenges-of-not-having-metadata">Challenges of not having metadata</h2>
+<p>If you didn't have this metadata, how would you go about finding the information you need to understand the data?</p>
+<p>We would probably have to engage with time-consuming processes, such as contacting people or organisations to get further information about the dataset and what it contains. </p>
+<p>While some information about data exists in research papers and outputs, it can take time to find and extract the information you need. Also, the purpose of a research paper is to report the findings of a particular research question so the information available may be limited and/or unsuitable to facilitate reuse.</p>
+<p>Metadata makes research more time and cost effective. It maximises the potential and impact of data by providing the information needed to discover, understand and (re)use data. This creates more opportunity for data citations, secondary research and cross-study comparison. Therefore, the same dataset can be used for different purposes and research enquiries beyond what it was originally created for. </p>
+<blockquote>
+<p>[!NOTE]
+HM- potetential prompt - “Can you think of a situation where metadata helped—or would have helped—your work?”</p>
+</blockquote>
+<h2 id="metadata-terms">Metadata terms</h2>
+<p>So, now that we have a broad understanding of what metadata is and how it can help us, let's look at how it's formally defined.</p>
+<p>As an evolving field, it's important to note that terminology around metadata can vary depending on the source you're using; the same term can be used or interpreted by people to mean slightly different things. </p>
+<p>In this course, we'll define metadata concepts and terms as we go along. Outside of this course, using a glossary can be a useful way to identify a single source of truth so you can be consistent with you understanding and application.</p>
+<p>For example, you could use <a href="https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/">CODATA RDM Terminology bank</a> which contains community-accepted terms and definitions for concepts relevant to research data management. As the Terminology Bank is regularly updated by a working group of academics across disciplines, it helps us standardise the way we define and understand terms in a way that is relevant and current to research now. There may also be similar resources within your specific discipline that you could use.</p>
+<p>When engaging with someone else's metadata, it's important to check how they define their terms in case they differ from your own. Equally, if you're creating and managing metadata, it's helpful to be clear and consistent in defining the terms you use.</p>
+<h2 id="defining-metadata">Defining metadata</h2>
+<p>So we know what metadata is and how it can help us, but how is it formally defined?</p>
+<p>Metadata is a form of data documentation, you may have heard it being called “data about data”. It provides a framework to describe and understand data, so that it can be used in an intelligent and meaningful way.</p>
+<p>According to CODATA, metadata is ...</p>
+<blockquote>
+<p>'Data about data. It is data (or information) that defines and describes the characteristics of other data. It is used to improve the understanding and use of the data.' <sup>[3]</sup></p>
+</blockquote>
+<p>The National Information Standards Organization offers a similar definition ...</p>
+<blockquote>
+<p>'Metadata is structured information that describes, explains, locates, or otherwise makes it easier to retrieve, use, or manage an information resource. Metadata is often called data about data or information about information.' <sup>[4]</sup></p>
+</blockquote>
+<p>As noted, we may come across slight variations in the way people and organisations define metadata, but at its core, metadata supports three main purposes...</p>
+<ul>
+<li><strong>Discovery</strong>: Metadata helps us find relevant resources</li>
+<li><strong>Understandability and context</strong>: Metadata helps us to quickly understand resources, both what the resources consist of and how they were produced</li>
+<li><strong>Use and action</strong>: Metadata provides us with the information on how to access and use the resource as well as any limitations around this</li>
+</ul>
+<h3 id="metadata-vs-data-documentation">Metadata vs. data documentation</h3>
+<p>Metadata is a type of data documentation. However, what makes metadata different from other forms of data documentation?</p>
+<p>Consider these two descriptions of a dataset. </p>
+<p>Description one was written in a Micorsoft Word document which is stored alongside a dataset.</p>
+<p><img src="../img/Age7Survey-textdescription.png" alt="Alt Text" width="500" height="250"> </p>
+<p>Description two is available online on a data catalogue site (we will cover data catalogues in more depth in <a href="2.3 Using metadata%3A%20discover data.md">unit 2.3</a>)</p>
+<p><img src="../img/age7surveymetadata.png" alt="Alt Text" width="500" height="400"></p>
+<p>Both contain the same information, and both could be called 'data about data' or 'information about information'.</p>
+<p>However, only one of these examples can be considered metadata. </p>
+<ul>
+<li>What are the differences between these two descriptions?</li>
+<li>Which is most effective for data management? Why?</li>
+<li>Which description do you think is metadata? What features make it metadata?</li>
+</ul>
+<details>
+<summary><b>Differencces between the two descriptions</b></summary>
+<p></p>
+
+<b>Strucutre</b><br>
+Description one is written in full sentences whereas description two has been broken down into different sections. Each of these sections has a title which specifies what type of information is included in that section.
+<p></p>
+<b>Formatting</b><br>
+Description one uses formatting (such as bold and underlined text) to highlight different types of information. It is also stored in a free-text software, Microsoft Word. Description two uses titles for different types of information and the description itself does not rely on further formatting. It also stored online, meaning the information is readable by machines.
+<p></p>
+Description two is the documentation that is metadata, as it is structured and does not rely on formatting to express information. In the next section, we'll explore the key features of metadata further.
+
+</details>
+
+<h4 id="metadata-is-structured-machine-readable-documentation">Metadata is structured, machine-readable documentation</h4>
+<p>Two defining features of metadata are that it is <strong>structured documentation</strong> and <strong>machine readable</strong>. By being machine readable, metadata is also <strong>machine actionable</strong>, meaning we can use computers to get more functionality out of our documentation.</p>
+<p>Below, we explore these features in more depth.</p>
+<details>
+<summary><b>Structured</b></summary>
+<p></p>
+
+Rather than a long text block, metadata is structured information that is separated into metadata elements. A <b>metadata element</b> is the container that describes what information the metadata is covering. It could be described as the title or the label for the metadata. (e.g. 'Title', 'Alternate Title', 'Publisher', 'Date').
+<p></p>
+Sometimes there are rules around what input is allowed for a metadata element in order to make sure the information is clean (e.g. for the metadata element 'Date', there may be a specification to format the information as dd/mm/yyyy)
+
+</details>
+
+<details>
+<summary><b>Machine-readable and machine-actionable</b></summary>
+<p></p>
+
+Metadata has to be stored in specific machine-readable formats such as JSON, csv, XML, and not in formats such as Microsoft Word or PDF. In order to store metadata in these formats, the information must be structured so computers can extract the information. If documentation includes different types of information in one paragraph and/or relies on formatting such as colour, italics, bold, underline to indicate different information, a machine will not be able to interpret its meaning.
+<p></p>
+By being <b>machine-readable</b>, metadata can tell a computer what something is, how it relates to other objects or information, and what to do with the information. By being machine readable, metadata can also be <b>machine-actionable</b>. 
+<p></p>
+By describing how different metadata elements relate to each other, for example what categories they're in or if a piece of information is linked to another piece of information, machine's can not only read the metadata but also conduct further actions. 
+<p></p>
+For example, we can use computers to search and filter our metadata using sites such as data repositories and data catalogues. We'll look more closely at these in [unit 2.3](<2.3 Using metadata%3A%20discover data.md>)
+
+</details>
+
+<p>Now we've explored the defining features of metadata, you may realise you use metadata or create metadata already, without realising it. You may have used it in research or in your everyday life.</p>
+<p>Can you list some examples outside of research where you may have ysed metadata</p>
+<ul>
+<li>Streaming platforms use a programme's metadata so people can search for shows by genre, director or length</li>
+<li>An online shopping site</li>
+<li>An online library catalogue allows people to find books based on topic, data of publication or author</li>
+</ul>
+<h2 id="benefits-of-metadata">Benefits of metadata</h2>
+<p>Let's consider what the benefits of using and creating metadata are in research.</p>
+<p>What are the benefits ....</p>
+<details>
+<summary><b>For people creating metadata (metadata creators)</b></summary>
+<p></p>
+
+For people creating metadata, metadata ...
+<ul>
+<li>Preserves your data and research</li>
+<li>Makes data management processes more robust and efficient</li>
+<li>Enables more accurate, reliable and higher-quality research </li>
+<li>Helps your future self understand and reuse the data</li>
+<li>Helps others find, understand, compare, and use your data</li>
+<li>Increases the visibility of your study to other researchers and organisations</li>
+<li>Exploits the full potential of your data by supporting cross-study comparisons and secondary research</li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>For people using metadata (metadata users)</b></summary>
+<p></p>
+
+For people using metadata, metadata can help them...
+<ul>
+<li>Understand a research project and its data efficiently and effectively</li>
+<li>Assess how relevant data is for your research effort</li>
+<li>Compare datasets</li>
+<li>Reproduce or reuse data</li>
+<li>Save time by not having to contact people for basic information around datasets</li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>For research as a whole</b></summary>
+<p></p>
+
+For research as a whole, metadata ...
+<ul>
+<li>Saves time for people working across the research field</li>
+<li>Provides proof of transparent and valid conduct</li>
+<li>Implements the FAIR data principles</li>
+<li>Enacts best practice in research</li>
+<ul>
+
+>[!NOTE]
+>HM- it might make sense to move "Exploits the full potential of your data by supporting cross-study comparisons and secondary research" to whole research. 
+
+</details>
+
+<p>Across research, the benefits of metadata are widely recognised. It helps data owners keep their work organised and makes it easier for data users to understand and reuse that work. Because of this, researchers are often required to provide metadata so others can take full advantage of what it offers. </p>
+<p>Some organisations or people that might require researchers to create metadata include…</p>
+<ul>
+<li><strong>Institutes</strong> in your working contract or project agreements</li>
+<li><strong>Funding agencies</strong> who may require metadata to ensure reusability of the data and that a project is meeting FAIR requirements</li>
+<li><strong>Data repositories or catalogues</strong> will list required metadata in order to deposit your data and/or metadata</li>
+<li><strong>Journals</strong> may specify metadata needed as a condition for publishing</li>
+<li><strong>Supervisors</strong> may require metadaata in order to encourage data citations and enchance researcher reputation </li>
+<li>By certain <strong>projects</strong> that include collaborations across agencies and/or organisations</li>
+</ul>
+<p>Thinking back to <a href="../1.2%20Research%20data%20management/">unit 1.2</a> Research Data Management (RDM), metadata is a core component of RDM and should be included in all Data Management Plans (DMPs).</p>
+<h2 id="metadata-and-fair">Metadata and FAIR</h2>
+<p>Thinking back to the FAIR data principles, metadata plays a cruical role in making our research data FAIR. In addition, we should consider how to make our metadata as FAIR as possible.</p>
+<p>The guidlines below explore how of how to make both our data and metadata FAIR...</p>
+<p><img src="../img/FAIR_metadata_infographic.png" alt="Alt Text" width="750" height="500"></p>
+<p>In the following units, we look further into how we can implement this guidance using data respositories and catalogues <a href="2.3 Using metadata%3A%20discover data.md">unit 2.3</a>), controlled vocabularies (<a href="../2.4%20Controlled%20vocabularies/">unit 2.4</a> and metadata standards (<a href="&lt;2.5 Metadata standards.md">unit 2.5</a>).</p>
+<p>::: notes
+https://www.go-fair.org/fair-principles 
+:::</p>
+<h3 id="fair-tools">FAIR tools</h3>
+<p><strong>Test your knowledge on FAIR</strong></p>
+<p>The Data Archiving and Networking Service (DANS) have created a FAIR Aware tool where you can check your understanding of FAIR and the role of metadata in implementing the principles. </p>
+<p>If you want, head over to the <a href="https://fairaware.dans.knaw.nl/">Fair Aware tool</a> to take the questionnaire.</p>
+<p><strong>Test how FAIR your data is</strong></p>
+<p>You can assess how FAIR your data is using the <a href="https://ardc.edu.au/resource/fair-data-self-assessment-tool/">ARDC FAIR data assessment tool here</a></p>
+<h2 id="further-resources">Further resources</h2>
+<p>Want to know more?</p>
+<p>We will explore more features of metadata, how we use it and what tools are available for metadata best practice in this course. However, if you want to look at other resources that introduce what metadata is, you can explore some of the links below ...</p>
+<ul>
+<li>You can watch <a href="https://www.youtube.com/watch?v=DW2T_cnqKPU">this knowledge clip from UGent University</a> to gain an overview of metadata in a research context</li>
+<li>You can explore CESSDA's explanation of metadata for <a href="https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata">qualitative and quantative metadata here</a></li>
+</ul>
+<h2 id="test-your-knowledge">Test your knowledge</h2>
+<p>True or false...</p>
+<ul>
+<li>FAIR principles only apply to published datasets, not metadata.</li>
+<li>Metadata helps ensure data is interpretable by both humans and machines.</li>
+<li>Metadata is only relevant for digital datasets.</li>
+<li>It is always optional to create metadata.</li>
+</ul>
+<p>Which of the following is a key purpose of metadata in research?</p>
+<ol>
+<li>Encrypting data</li>
+<li>Describing data content and structure</li>
+<li>Compressing data files</li>
+<li>Removing duplicates</li>
+</ol>
+<p>Which of the following is <strong>not</strong> typically included in research metadata?</p>
+<ol>
+<li>File size</li>
+<li>Author or creator</li>
+<li>Data analysis results</li>
+<li>Licensing information</li>
+</ol>
+<p>Which format can you <strong>not</strong> create metadata? Select all that are relevant.</p>
+<ul>
+<li>JSON</li>
+<li>.txt</li>
+<li>XML</li>
+<li>Word</li>
+<li>CSV</li>
+</ul>
+<details>
+<summary><b>Answers</b></summary>
+<p></p>
+
+<ul>
+<li>True or false...</li>
+ <ul>
+ <li>FAIR principles only apply to published datasets, not metadata. <b>FALSE</b> </li>
+ <li>Metadata helps ensure data is interpretable by both humans and machines. <b>TRUE</b> </li>
+ <li>Metadata is only relevant for digital datasets. <b>FALSE</b> </li>
+ <li>It is always optional to create metadata. <b>FALSE</b> </li>
+ </ul>
+<p></p>
+<li>Which of the following is a key purpose of metadata in research?</li>
+&nbsp1. Encrypting data <br>
+&nbsp<b>2. Describing data content and structure</b> <br>
+&nbsp3. Compressing data files<br>
+&nbsp4. Removing duplicates<br>
+<p></p>
+<li>Which of the following is <b>not</b> typically included in research metadata?</li>
+&nbsp1. File size<br>
+&nbsp2. Author or creator<br>
+&nbsp<b>3. Data analysis results</b> <br>
+&nbsp4. Licensing information<br>
+<p></p>
+<li>Which format can you <b>not</b> create metadata? Select all that are relevant.</li>
+ <ul>
+ <li>JSON</li>
+ <li><b>.txt</b></li>
+ <li>XML</li>
+ <li><b>Word</b></li>
+ <li>CSV</li>
+ </ul>
+
+</details>
+
+<h2 id="references">References</h2>
+<p><sup>[1]</sup> DDI (2021) <em>Introduction to Metadata for Research Data management: The DDI Perspective</em> The DDI Training Working Group 29 April 2021
+<sup>[2]</sup> ['GESIS Leibniz Institute for the Social Sciences (2016) Dataset: <em>[NCDS2 Parental Interview Form (1969) Dataset]</em> (https://discovery.closer.ac.uk/item/uk.cls.ncds/b3909a8c-2118-4f82-ad34-245ce610ea07), Sweep: <em>[Age 11 Survey (1969)]</em> (https://discovery.closer.ac.uk/item/uk.cls.ncds/a52ee654-efa8-4839-a545-fd82bec63e71), Study: <em>[National Child Development Study]</em> (https://closer.ac.uk/cross-study-data-guides/cognitive-measures-guide/ncds-cognition/ncds-age-7-copying-designs-test/)
+<sup>[3]</sup> CODATA RDM Terminiology 2023
+<sup>[4]</sup> <a href="http://www.niso.org/publications/press/UnderstandingMetadata.pdf">National Information Standards Organization</a></p>
+<h2 id="_1">???????</h2>
+<ul>
+<li>UGent University (2021) <em>Open Science Knowledge clip: Metadata</em> [Online video] www.youtube.com/watch?v=DW2T_cnqKPU) to gain an overview of metadata in a research context</li>
+<li>CESSDA (2025) 'Documentation and Metadata' <em>Data Management Expert Guide</em> www.dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata</li>
+<li>CODATA (2025) RDM Terminology [WHEN RELEASED UPDATE]</li>
+<li>Data Archiving and Networking Services (2021) <em>FAIR Aware</em> www.fairaware.dans.knaw.nl/</li>
+<li>DDI (2021) <em>Introduction to Metadata for Research Data management: The DDI Perspective</em> The DDI Training Working Group 29 April 2021</li>
+<li>ARDC (2025) <em>FAIR Data Self-Assessment Tool</em> www.ardc.edu.au/resource/fair-data-self-assessment-tool/</li>
+<li>GESIS Leibniz Institute for the Social Sciences (2016) Dataset: <em>[NCDS2 Parental Interview Form (1969) Dataset]</em> (https://discovery.closer.ac.uk/item/uk.cls.ncds/b3909a8c-2118-4f82-ad34-245ce610ea07), Sweep: <em>[Age 11 Survey (1969)]</em> (https://discovery.closer.ac.uk/item/uk.cls.ncds/a52ee654-efa8-4839-a545-fd82bec63e71), Study: <em>[National Child Development Study]</em> (https://closer.ac.uk/cross-study-data-guides/cognitive-measures-guide/ncds-cognition/ncds-age-7-copying-designs-test/)
+Kononow, P. (2018) <em>What is metadata (with examples)</em> Online: Dataedo. www.dataedo.com/kb/data-glossary/what-is-metadata</li>
+<li>Volle, Adam (2025) <em>Metadata</em> Online: Britanica. www.britannica.com/technology/metadata</li>
+<li>Wikipedia (2025) <em>Metadata</em> https://en.wikipedia.org/wiki/Metadata</li>
+<li>Parry, K. (2023) Metadata Is Not Data About Data. Decolonizing Data, p15-33</li>
+<li>Riley, J. (2017) <em>Understanding metadata: What is metadata and what is it for?</em> Baltimore: National Information Standards Organization. www.niso.org/publications/press/UnderstandingMetadata.pdf</li>
+<li>OpenDataSoft (2024) <em>The complete guide to metadata management</em> (E-book) https://www.opendatasoft.com/en/resources/the-complete-guide-to-metadata-management/</li>
+<li>Australian Research Data Commons (ARDC) (2025) <em>ARDC Metadata Guide.</em> Zenodo. 10.5281/zenodo.6459832 </li>
+<li>Lubas, R., Jackson, A., Schneider, I. (2013) <em>The Metadata Manual</em> Chandos Publishing www.sciencedirect.com/book/9781843347293/the-metadata-manual</li>
+<li>Gourley, D., Zhang, A. B. (2009) 'Metadata strategy' pp 31-35 in <em>Creating Digital Collections: A Practical Guide</em> Chandos doi.org/10.1016/B978-1-84334-396-7.50004-3</li>
+<li>Xie, I., Matusiak, K. K. (2016) 'Metadata' pp 129-170 in Discover Digital Libraries <em>Theory and Practice</em> doi.org/10.1016/B978-0-12-417112-1.00005-3</li>
+<li>Open Learn (2025) <em>Session 3 Metadata and search</em> www.open.edu/openlearn/mod/oucontent/view.php?id=106067&amp;section=3</li>
+<li>Gregory, A., Danciu, A. (2021) <em>Webinar on Introduction to Metadata for Research Data Management: A Data Documentation Initiative (DDI) Perspective by Arofan Gregory (CODATA) and Alina Danciu (Sciences Po).</em> CODATA [Online video] www.codata.org/initiatives/data-skills/ddi-training-webinars/register-now-webinar-on-introduction-to-metadata-for-research-data-management-a-data-documentation-initiative-ddi-perspective/</li>
+<li>DataONE (2017) <em>Metadata lesson</em> www.dataoneorg.github.io/Education/lessons/07_metadata/index.html</li>
+<li>D.B. Deutz, M.C.H. Buss, J. S. Hansen, K. K. Hansen, K.G. Kjelmann, A.V. Larsen, E. Vlachos, K.F. Holmstrand (2020) 'Metadata' in <em>How to FAIR: a Danish website to guide researchers on making research data more FAIR</em>
+www.howtofair.dk/how-to-fair/metadata/</li>
+<li>Harvard Medical School (2025) <em>Documentation &amp; Metadata</em> www.datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata</li>
+<li>University of Pittsburgh (2025) <em>Metadata &amp; Discovery</em> www.pitt.libguides.com/metadatadiscovery/</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>

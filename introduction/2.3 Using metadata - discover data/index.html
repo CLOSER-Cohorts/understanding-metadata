@@ -1,0 +1,1262 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2.2%20Metadata%20in%20the%20research%20lifecycle/">
+      
+      
+        <link rel="next" href="../2.4%20Controlled%20vocabularies/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 2.3 Using metadata, discover data - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#unit-23-using-metadata-discover-understand-assess-and-act-on-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 2.3 Using metadata, discover data
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introductory module
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introductory module
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.0%20Module%20Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Module Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Research%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Research%20data%20management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research Data Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3%20FAIR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAIR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Introduction%20to%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction to Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2%20Metadata%20in%20the%20research%20lifecycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata in the Research Data Lifecycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Using Metadata
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Using Metadata
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-study-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit study time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intended-learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended Learning Outcome
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-discovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: Discovery
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: Discovery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-discovery-in-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data discovery in research
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-to-discover-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools to discover data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools to discover data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discovery-data-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discovery: data catalogue
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-role-of-metadata-in-data-catalogues" class="md-nav__link">
+    <span class="md-ellipsis">
+      The role of metadata in data catalogues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-understand-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: understand data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: understand data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discovery-to-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discovery to understanding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-research-projects-in-more-detail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding research projects in more detail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-research-codebooks-and-data-dictionaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding research: Codebooks and data dictionaries
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codebooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Codebooks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-dictionaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data dictionaries
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-assess" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: Assess
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: Assess">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-to-assessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding to assessing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: Action
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: Action">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assessing-to-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessing to action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.4%20Controlled%20vocabularies/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Controlled Vocabularies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Metadata%20standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metadata Standards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Introduction%20summary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-study-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit study time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intended-learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended Learning Outcome
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-discovery" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: Discovery
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: Discovery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-discovery-in-research" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data discovery in research
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools-to-discover-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools to discover data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tools to discover data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discovery-data-catalogue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discovery: data catalogue
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-role-of-metadata-in-data-catalogues" class="md-nav__link">
+    <span class="md-ellipsis">
+      The role of metadata in data catalogues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-understand-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: understand data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: understand data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#discovery-to-understanding" class="md-nav__link">
+    <span class="md-ellipsis">
+      Discovery to understanding
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-research-projects-in-more-detail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding research projects in more detail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understanding-research-codebooks-and-data-dictionaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding research: Codebooks and data dictionaries
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#codebooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Codebooks
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-dictionaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      Data dictionaries
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-assess" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: Assess
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: Assess">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#understanding-to-assessing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Understanding to assessing
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-metadata-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using metadata: Action
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using metadata: Action">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assessing-to-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Assessing to action
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="unit-23-using-metadata-discover-understand-assess-and-act-on-data">Unit 2.3 Using metadata: Discover, understand, assess and act on data</h1>
+<h2 id="unit-overview">Unit overview</h2>
+<h3 id="unit-study-time">Unit study time</h3>
+<ul>
+<li>2 hours</li>
+</ul>
+<h3 id="intended-learning-outcome">Intended Learning Outcome</h3>
+<p>By the end of the unit, you will be able to ...</p>
+<ul>
+<li>Describe what a data repository and data catalogue is and understand what their role is in research</li>
+<li>Know how to search and filter data catalogues</li>
+<li>Explain the role of metadata in enabling the search/filter function on data catalogues</li>
+<li>Undestand how codebooks and data dictionaries help us understand a dataset further</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+HM I wonder if we can spell this out a bit more, since the course is about <em>using</em> metadata, can we start with the ways in which someone could use metadata and then go into details for each one (could be in the same unit or separate), discovery and understanding is already here, and there is already an example which realted to trustworthiness/quality which could be moved here and also the section on provence. So it would be Using metadata: discovery (from shoes to jounral articles to data), Using metadata: understanding (including provenance, questions, context), Using metadata: Assessing (trustworthiness, frequencies, cases etc). Would this work as a structure or is it too much work for little gain, I like it becuase most of it is here, and it ties in with the discover, asssess and understand in the narrative. The only thing we are potentially missing is using metadata on its own e.g. using DOIs, ORCIDs, using metadata to contact someone, requesting access, finding the correct version of something - If we want to inlcude this, I would use Using metadata: Action instead as that covers everything. discovery, understanding and action are the main uses of metadata. </p>
+</blockquote>
+<h2 id="using-metadata-discovery">Using metadata: Discovery</h2>
+<p>First, let's look at discovery. In our everday lives, we use metadata all the time to discover resources. Can you think of any examples?</p>
+<details>
+<summary><b>Everyday examples of using metadata for discovery </b></summary>
+<p></p> 
+
+<b>Shopping sites:</b> a product's metadata allows us to search and filter the site in order to find the item we're looking for. For example, we can look through categories, brand, price range etc.
+
+<img src="img/JohnLewisfilters.png" alt="Alt Text" width="360" height="320"> 
+
+<p></p> 
+
+<b>Streaming platforms:</b> a show's metadata allows us to search and filter the platform to find a show based on genre or actor, for example. 
+<p></p> 
+<b>Photos:</b> when we take a photo, a device will often capture information such as when and where the picture was taken. You can then filter through this metadata when looking through your photos
+<p></p> 
+<b>Website search engines:</b> Metadata like titles, descriptions, and keywords tell search engines what a web page is about, making it easier to index and making sure the right sites are being shown in a particular search
+<p></p> 
+<b>AI:</b>metadata provides the context and structure that AI systems need to understand, process, and learn from data effectively. AI systems process this metadata in order to correctly identify different digital objects and peform different tasks. 
+
+
+</details>
+
+<blockquote>
+<p>[!NOTE]
+Have included a bit about metadata using AI here</p>
+</blockquote>
+<h3 id="data-discovery-in-research">Data discovery in research</h3>
+<p>Why do we need to discover research studies and their data?</p>
+<p>We may need to find existing research projects and their data to ...
+- Conduct literature reviews and understand how a new project will fit into existing research
+- Help inform the research design of a new research project
+- Idenitfy secondary data for a new research project
+- Help produce materials such as policy briefings</p>
+<p>So, how do we go about finding data? </p>
+<p>Imagine you're a social science researcher looking at population and climate. You want to  conduct research on improving water quality in cities in the UK. You're considering working from secondary data and you want to find open data from the years 2000-2025 that relate to this subject.</p>
+<p>How would you go about it? What tools would you use?</p>
+<h2 id="tools-to-discover-data">Tools to discover data</h2>
+<p>One common way people discover research is online, through data repositories and data catalogues. These searchable platforms can be accessed on the web, and they bring together a vast range research projects in one area.</p>
+<p>The terms data repositories and data catalogues are sometimes used interchangeably but they are different tools.</p>
+<p><strong>Data repository</strong> </p>
+<p>The UK Data Service describes a data repository as 'a centralised database system that collects, manages, and stores datasets for later use'. They are designed for the long-term storage of datasets which can then be managed and accessed through the repository. </p>
+<p><strong>Data catalogue</strong> </p>
+<p>CODATA defines a data catalogue as a 'curated collection of metadata records describing datasets and their data elements. Curated and organised using a formal metadata schema appropriate to data and data sets (e.g. ReCollect etc)'. Sometimes a data catalogue is referred to as a metadata repository (note that this is different from a data repository which stores the actual data). </p>
+<p>While a data repository stores the actual data, a data catalogue is a discovery tool. A data catalogue only stores the metadata records and direct people to where they can access the data. Sometimes they are also referred to as <strong>metadata catalogues</strong>. Therefore, when we're looking for data, we normally search a data catalogue and then access data using a data repository.</p>
+<p>When a researcher finishes a project, it's good practice to deposit data in a trusted repository to ensure its long-term preservation (note, this does not mean data needs to be open). When data is deposited in a repository, it then becomes searchable on associated data catalogue sites. Thinking back to <a href="../1.3%20FAIR/">unit 1.3</a>, data repositories and data catalogues are key components of FAIR infrastructure, making data findable, accessible, interoperable and re-usable. </p>
+<p>Data catalogues and data repositories can be cross-discipline or discipline specific. How can you find the right data catalogue and data repository for your area of interest? </p>
+<p>To find data repositories and catalogues for different disciplines, you can use search tools such as ...</p>
+<ul>
+<li><a href="https://www.re3data.org/">re3data.org</a></li>
+<li><a href="https://fairsharing.org/">FAIRsharing.org</a></li>
+</ul>
+<p>Using the websites above, find data catalogue relevant for the research brief: social science researcher looking at population and climate.</p>
+<details>
+<summary><b>Social science data catalogue</b></summary>
+<p></p> 
+As the brief states we are a social science researcher, we chose the data catalogue [UK Data Service](https://beta.ukdataservice.ac.uk/datacatalogue/studies/#!?Search=&Page=1&Rows=10&Sort=0&DateFrom=440&DateTo=2025). As the UK Data Service stores information about economic, population, and social research data in the UK, it will most likely contain projects relevant to the brief.
+<p></p> 
+You can see the UK Data service listed on [redata3 here](https://www.re3data.org/repository/r3d100010230) and [Fairsharing here](https://fairsharing.org/FAIRsharing.1ky0cs).
+
+</details>
+
+<p>Now trying using these websites to find repositories and/or catalogues that are relevant to your area of research. You can also talk to other researchers in your field to identify the leading data repository and/or catalogue for your discipline.</p>
+<h3 id="discovery-data-catalogue">Discovery: data catalogue</h3>
+<p>Now we've identified a relevant data catalogue, how can we use the UK Data Service to find relevant research projects relating to our research brief described above?</p>
+<p>The UK Data Service gives you the ability to search and filter their catalogue so you can find relevant resources quickly.</p>
+<p>Using these functions, we could put 'water quality' in the search bar ...</p>
+<p><img src="../img/Water quality - search.png" alt="Alt Text" width="400" height="600"> </p>
+<p>To refine our search further, we could set the filters to reflect the brief (e.g. 2000-2025, Natural environment, Open data) ...</p>
+<p><img src="../img/Water quality - filters.png" alt="Alt Text" width="310" height="500"> </p>
+<p>Try using these search and filter functions as described above. What research projects do you find? </p>
+<details>
+<summary><b>Relevant research projects</b></summary>
+<p></p> 
+
+If you follow the steps above, you may have come across the following research studies ...
+
+> Walsh, C., Wang, L. (2024). Using Participatory Approaches To Instigate Improvements in Water Quality, 2021-2022. [data collection]. UK Data Service. SN: 856882, DOI: 10.5255/UKDA-SN-856882
+<p></p> 
+> Hutchins, M. (2024). Water Quality Model Outputs for an Urban River in Birmingham, 2013-2014. [data collection]. UK Data Service. SN: 857393, DOI: 10.5255/UKDA-SN-857393
+<p></p> 
+> Chenoweth, J., López-Avilés, A., Morse, S., Druckman, A. (2016). SPREE project water use and wellbeing survey. [data collection]. UK Data Service. SN: 852336, DOI: 10.5255/UKDA-SN-852336
+<p></p> 
+> Reed, M., Helen, K. (2021). Exploring Ecosystem Markets for the Delivery of Public Goods in the UK: Stakeholder Interviews, 2018-2021. [data collection]. UK Data Service. SN: 855274, DOI: 10.5255/UKDA-SN-855274
+<p></p> 
+> Organisation for Economic Co-operation and Development. (2021). OECD Environment Statistics, 1950-2020. [data collection]. UK Data Service. SN: 7784, DOI: http://doi.org/10.5257/oecd/env/2021
+<p></p> 
+Data catalogues help us find relevant research projects in a quick, user-friendly way. They also provide citation information, meaning that when we are doing a vast amount of research to find secondary data or a literature review, data catalogues and metadata help us efficiently collect and store the important citation data.  
+
+</details>
+
+<p>In these examples, how do you think we are using metadata to help us discover relevant research projects?</p>
+<h3 id="the-role-of-metadata-in-data-catalogues">The role of metadata in data catalogues</h3>
+<p>The reason we can search and filter data catalogues is because each study has metadata. Without it, we'd have to open every study page individually to see what it's about and whether it's relevant to our work. Instead, metadata gives us the power to tailor our searches and quickly scan lots of resources in a structured, efficient way.</p>
+<p><strong>Keywords search tool</strong></p>
+<p>When we enter terms into the search bar of a data catalogue, the computer looks for matches in a resource's metadata, providing us with relevant search results.</p>
+<p>Take a look at some examples of search pages on data catalogues here...</p>
+<ul>
+<li><a href="https://beta.ukdataservice.ac.uk/datacatalogue/studies/?Search=#!?Search=&amp;Page=1&amp;Rows=10&amp;Sort=0&amp;DateFrom=440&amp;DateTo=2025">UK Data Service</a> - provides metadata on social, economic, and population research datasets, including longitudinal studies</li>
+<li><a href="https://www.icpsr.umich.edu/sites/icpsr/home">ICPSR</a> - offers metadata for social and behavioral science datasets</li>
+<li><a href="https://datacatalogue.cessda.eu/">CESSDA</a> - provides metadata for social science datasets from member archives</li>
+<li><a href="https://catalogue.ceda.ac.uk/">CEDA</a> - contains metadata for climate, atmospheric, and Earth observation datasets</li>
+<li><a href="https://ons.metadata.works/browser/landing">Office for National Statistics</a> - provides metadata for UK official statistics and secure research datasets </li>
+<li><a href="https://portal.ariadne-infrastructure.eu/">ARIADNE</a> - provides metadata for archaeological resources such as monuments, artefacts, excavation datasets </li>
+<li><a href="https://datamed.org/">DataMed</a> - pulls together metadata for biomedical datasets across multiple repositories using the DATS model</li>
+<li><a href="https://www.ebi.ac.uk/biostudies/studies/">BioStudies</a> - stores metadata describing life science studies</li>
+<li><a href="https://www.ebi.ac.uk/biosamples/">BioSamples</a> - stores metadata for biological samples</li>
+<li><a href="https://gis.ices.dk/geonetwork/srv/eng/catalog.search#/home">ICES Metadata Catalogue</a> - contains geospatial and thematic metadata for marine and oceanographic datasets</li>
+</ul>
+<p><strong>Filter tool</strong> </p>
+<p>Metadata can also be leveraged as filters to explore a large set of objects or data. Most data catalogues will provide filters based on metadata that describes the study for example, the geographical location, the date the research was published, the organisation that conducted the research, the topics it covers, the data access level. </p>
+<p>For example ...</p>
+<p><img src="../img/UKDS-Filters.png" alt="Alt Text" width="180" height="280"></p>
+<p>Take a look at the data catalogues listed above and see what different filters they provide.</p>
+<p>Some sites will also allow you to search and filter low level metadata about the data within the dataset themselves. For example...
+- <a href="https://discover.ukdataservice.ac.uk/variables">UK Data Service: Variable and question bank</a>{ target="_blank" } allows users to search the variables and questions within datasets and data collection tools
+- <a href="https://discovery.closer.ac.uk/">CLOSER Discovery: Variable and question search</a> also offers users to search through variable and question metadata</p>
+<h2 id="using-metadata-understand-data">Using metadata: understand data</h2>
+<h3 id="discovery-to-understanding">Discovery to understanding</h3>
+<p>Once we have used the search and filter functions on a data catalogue to find relevant research projects, how can metadata help us <em>understand</em> what a research project is about?</p>
+<p>When we click on a particular research study in a search list, we are taken to the profile page. </p>
+<p>For example...</p>
+<p><img src="../img/Water quality - profile page.png" alt="Alt Text" width="360" height="320"> </p>
+<p>Here, we can see the metadata describing the overall project. This gives us a clear overview of what the study is about, when it was conducted, what datasets it contains and how we can access the data.</p>
+<p>Data catalogues and repositories will often specify what metadata people need to provide when they deposit their data. This means the same level of information available for each study so people can easily compare resources and search efficiently. We will look at other tools that are used to standardise metadata in the upcoming units <a href="../2.4%20Controlled%20vocabularies/">2.4</a> and <a href="../2.5%20Metadata%20standards/">2.5</a> .</p>
+<h3 id="understanding-research-projects-in-more-detail">Understanding research projects in more detail</h3>
+<p>Data catalogues usually provide the overall picture of a research project. As we explored in <a href="../2.1%20Introduction%20to%20metadata/">unt 2.1</a>, having more information about the variables within a dataset helps us understand a study further and assess whether it is relevant to our research needs.</p>
+<p>So, how do we find metadata that describes variables and the type of data within a dataset?</p>
+<p>On some data and metadata catalogues, you can view and explore variable metadata and question metadata (if a survey was conducted) online. For example....</p>
+<p><strong>Variables</strong></p>
+<ul>
+<li>You can look at metadata for an individual variable, such as the data type and linked questions, on UK Data Service Variable and Question Bank. For example, Variable <a href="https://discover.ukdataservice.ac.uk//variables/variable/?id=9323_V230">'Past health problems - 5'</a> </li>
+<li>On CLOSER Discovery you can find similar variable metadata. For example, Variable <a href="https://discovery.closer.ac.uk/item/uk.cls.ncds/c440796b-67e0-4d0c-b7da-6e4e28d0bfe2">'(A1) Did CM receive housing benefit whilst at address'</a></li>
+</ul>
+<p><strong>Questions</strong></p>
+<ul>
+<li>On CLOSER Discovery, you can also find metadata for an individual question. For example, <a href="https://discovery.closer.ac.uk/item/uk.iser.ukhls/2f1e27ba-e2e9-4bfe-a814-fa54809a77c9">'How interested you are in Politics'</a>. This gives us information about any linked variables to the question, where it appears in the questionnaire, how the participant could respond as well as the topics it relates to. </li>
+</ul>
+<p>On CLOSER Discovery and the UK data Service, you can also search and filter at the variable and question level. For example...</p>
+<p>By being able to search across lots of questions and variables in different datasets, we can us spot opportunities to reuse existing data for new research or make cross study comparisons. Without variable and question metadata, we might not realise that two different studies, despite having different focuses, actually have comparable data within their datasets. This means we could miss out on re-using data and end up duplicating work.</p>
+<p>Where data is open, some sites have used variable and question metadata to make their data interactice. For example, the British Election Study has created a <a href="https://www.britishelectionstudy.com/data/">'Data Playground'</a> which allows users to create graphs using data from across all their studies conducted over the past 60 years. This functionality only works because all studies have detailed and standardised variable and question metadata. Without that, the 'Data Playground' wouldn’t be able to link or compare anything across studies.</p>
+<p>Another way we can access variable and question metadata is through additional documentation stored alongside datasets. These types of documentation are called codebooks or data dictionaries that are usually available as downloadable resources on a data repository or catalogue. </p>
+<p>For example ...</p>
+<p><img src="../img/DISH-Data Dictionary-Codebook.png" alt="Alt Text" width="360" height="320"> </p>
+<h3 id="understanding-research-codebooks-and-data-dictionaries">Understanding research: Codebooks and data dictionaries</h3>
+<p>When looking a data catalogue, you may come across a dataset's codebook or data dictionary. These files are normally stored alongside the dataset and give further information about what variables within a dataset. </p>
+<p><strong>What information do codebooks and data dictionaries cover?</strong></p>
+<p>Both codebooks and data dictionaries bring together variable and question metadata so you can gain ainsight of the data within a dataset. Often, codebooks and data dictionaries can be automatically generated from metadata that is already created and managed as part of the research process. If a project didn't have metadata, it wouldn't be possible to create these types of documentation.</p>
+<p>While they are sometimes used interchangeably, they are different resources.</p>
+<h3 id="codebooks">Codebooks</h3>
+<p>CODATA defines a Codebook as a 'Document, in social sciences, that provides a structured description of a dataset, including details such as variable names, definitions, possible values, ranges, data types, provenance (source or origin), and collection methods. It serves as a reference for understanding and interpreting the data.'</p>
+<p>For example, take a look at this codebook from the 2024 research project "Dietary Intake in Scotland's CHildren (DISH)" ...</p>
+<p><img src="../img/DISH-Codebook.png" alt="Alt Text" width="360" height="320"> </p>
+<h3 id="data-dictionaries">Data dictionaries</h3>
+<p>CODATA defines Data dictionary as a 'collection of descriptions of the data objects or items in a data model. After each data object or item is given a descriptive name, its relationship is described (or it becomes part of some structure that implicitly describes relationship), the type of data (such as text or image or binary value) is described, possible predefined values are listed, and a brief textual description is provided. This collection can be organised for reference into a data dictionary.'</p>
+<p>For example, take a look at the data dictionary for the DISH project ...</p>
+<p><img src="../img/DISH-Data-dictionary.png" alt="Alt Text" width="360" height="320"> </p>
+<p>Data dictionaries provide a more high-level detail about variables within a dataset whereas Codebooks offer a more in depth insight, defining the variable further and describing what type of data was collected and how. The usefulness of a Codebook or Data dictionary depends on the level of detail and quality of the metadata.</p>
+<ul>
+<li>https://terms.codata.org/rdmt/codebook</li>
+<li>https://terms.codata.org/rdmt/data-dictionary</li>
+</ul>
+<h2 id="using-metadata-assess">Using metadata: Assess</h2>
+<h3 id="understanding-to-assessing">Understanding to assessing</h3>
+<p>Once you understand what the research is about and the data it contains, you can assess the trustworthiness of the data and how relevant it is for your work.</p>
+<p><strong>Trustworthiness</strong>
+As we explored in unit 2.2, metadata gives us provenance information that explains where the data came from and how it was collected. If a study has robust provenance metadata, we know we can trust the study and potentially re-use it's data in our research. This provenance metadata can also help us explore other resouces from the study, such as the data collection instrument (e.g. the questionnaire) or </p>
+<p><strong>Relevance</strong>
+Metadata helps us assess how relevant a study and its data is for the work we want to carry out.</p>
+<p>For example, we may only want to look at projects that are...
+- Conducted using a specific data collection instrument, for example
+- Asks questions to specific set of people, for example pregnant people</p>
+<p>Metadata can help us find studies that we may not think are relevant at first glance. For example, we might want to conduct research on pregnant people's welfare. There may be a study that looks at the social attitudes and perceptions of all citizens in the UK aged 18-100. On the surface, this may not seem relevant as the scope of individuals is beyond that of pregnant people and the study itself does not focus on preganancy. However, if we have question and variable metadata, we can see if there are questions/variables linked to pregnancy or if there were specific questions directed to pregnant people.</p>
+<h2 id="using-metadata-action">Using metadata: Action</h2>
+<h3 id="assessing-to-action">Assessing to action</h3>
+<p>Once you have found the data, understood the research and assessed it's trustworthiness and relevance to your work, you can now decide what you want to do with it. There are lots of different actions you might want to take. </p>
+<p>You may want to ...</p>
+<ul>
+<li>Access the data </li>
+<li>Contact a researcher or organisation involved in the study to learn more about their work</li>
+<li>Use a persistent identifier, such as a DOI, to link in your work or share the study further</li>
+<li>Find out what other studies the researcher's have carried out by searching their Orchid ID or looking at associated studies</li>
+<li>Find other studies that explore the same subject</li>
+</ul>
+<p>Without the structured metadata, it would be hard to do these activities. We wouldn't know where to contact information, it could be hidden in a dataset file or added to the bottom of the abstract or publication. Similarly, we wouldn't know where to get a DOI for a resource or an Orchid ID for an individual, or find associated studies that look at a similar subject. Instead, metadata makes these activities possible and efficient. </p>
+<blockquote>
+<p>[!NOTE]
+BO - I feel like the tone towards the end of this module is becoming a bit more formal</p>
+<p>[!NOTE]
+Is it necessary to differentiate between Codebook and Data Dictionary in this course? If so, what is the difference we would like to identify? The terms are used interchangeably by many orgs so would be good to get a clear understanding of this as I'm struggling <br>
+BO - From the definitions, it looks like codebooks are high level and data dictionaries are low level? Is that correct?</p>
+</blockquote>
+<p>Jaacks, L., Food Standards Scotland. (2025). Dietary Intake in Scotland's CHildren (DISH), 2024. [data collection]. UK Data Service. SN: 9370, DOI: http://doi.org/10.5255/UKDA-SN-9370-1</p>
+<h2 id="test-your-knowledge">Test your knowledge</h2>
+<p>True or false...</p>
+<ul>
+<li>Data repositories and data catalogues are the same thing.</li>
+<li>Data catalogues store the actual research data.</li>
+<li>You can filter a data catalogue without metadata.</li>
+<li>A data dictionary includes analysis results and conclusions.</li>
+</ul>
+<details>
+<summary><b>Answers</b></summary>
+<p></p>
+
+<ul>
+<li>Data repositories and data catalogues are the same thing. <b>FALSE</b>
+<li>Data catalogues store the actual research data. <b>FALSE</b>
+<li>You can filter a data catalogue without metadata. <b>FALSE</b>
+<li>A data dictionary includes analysis results and conclusions.<b>FALSE</b>
+</ul>
+
+</details>
+
+<h2 id="resources">Resources</h2>
+<ul>
+<li>ARIADNE (2025) 'ARIADNE Portal', <em>European Commission Horizon2020</em> [Online] www.portal.ariadne-infrastructure.eu/</li>
+<li>CLOSER Discovery (2025) <em>Variable and question search</em> [Online] www.discovery.closer.ac.uk/</li>
+<li>Consortium of European Social Science Data Archives (2025) <em>CESSDA Data Catalogue</em> [Online] www.datacatalogue.cessda.eu/</li>
+<li>DataMed (2025) 'DataMed', <em>NIH National Institute of Allergy and Infectious Disease</em> [Online] www.datamed.org/</li>
+<li>ELIXIR (2025) <em>BioStudies</em> [Online] www.ebi.ac.uk/biostudies/studies/</li>
+<li>ELIXIR (2025) <em>BioSamples</em> [Online] www.ebi.ac.uk/biosamples/</li>
+<li>FAIRsharing.org (2025) <em>FAIRsharing.org</em> [Online] www.fairsharing.org/</li>
+<li>GeoNetwork (2025) <em>ICES Metadata Catalogue</em> [Online] www.gis.ices.dk/geonetwork/srv/eng/catalog.search#/home</li>
+<li>GeoNetwork (2025) <em>JCDP Metadata Catalogue</em> [Online] www.gis.ices.dk/geonetwork/JCDP/eng/catalog.search#/home</li>
+<li>Institute of Education (2000) '(A1) Did CM receive housing benefit whilst at address' in NCDS6 CAI Questionnaire (2000) Dataset in <em>National Child Development Study (NCDS)</em> [Online] discovery.closer.ac.uk/item/uk.cls.ncds/c440796b-67e0-4d0c-b7da-6e4e28d0bfe2</li>
+<li>Institute of Social Research, University of Michigan (2025) <em>ICPSR</em> [Online] www.icpsr.umich.edu/sites/icpsr/home</li>
+<li>Institute for Social &amp; Economic Research (2015) 'How interested you are in Politics' in Wave 7 Youth Self-Completion Questionnaire in
+ _ Understanding Society_ https://discovery.closer.ac.uk/item/uk.iser.ukhls/2f1e27ba-e2e9-4bfe-a814-fa54809a77c9</li>
+<li>Jaacks, L., Food Standards Scotland. (2025). Dietary Intake in Scotland's CHildren (DISH), 2024. [data collection]. UK Data Service. SN: 9370, DOI: http://doi.org/10.5255/UKDA-SN-9370-1</li>
+<li>Office for National Statistics (2025) 'Variable 'Past health problems - 5'' in <em>Quarterly Labour Force Survey, July - September, 2024</em>. [data collection]. 4th Ed. <em>UK Data Service.</em> SN: 9323, DOI: http://doi.org/10.5255/UKDA-SN-9323-4</li>
+<li>Office for National Statistics (2025) <em>Secure Research Service</em> [Online] www.ons.metadata.works/browser/landing</li>
+<li>Natural Environment Research Council (2025) <em>Centre for Environmental Data Analysis (CEDA) Data catalogue</em> [Online] www.catalogue.ceda.ac.uk/</li>
+<li>re3data.org (2025) <em>re3data.org</em> [Online] www.re3data.org/</li>
+<li>UK Data Service (2025) <em>Variable and question bank</em> https://discover.ukdataservice.ac.uk/variables</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
