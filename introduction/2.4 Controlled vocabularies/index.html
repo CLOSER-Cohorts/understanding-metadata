@@ -1,0 +1,1586 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../2.3%20Using%20metadata%20-%20discover%20data/">
+      
+      
+        <link rel="next" href="../2.5%20Metadata%20standards/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.17">
+    
+    
+      
+        <title>Unit 2.4 Controlled vocabularies - Understanding Metadata</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bcfcd587.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Source Sans Pro";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#unit-24-controlled-vocabularies" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Understanding Metadata" class="md-header__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Understanding Metadata
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Unit 2.4 Controlled vocabularies
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Understanding Metadata" class="md-nav__button md-logo" aria-label="Understanding Metadata" data-md-component="logo">
+      
+  <img src="../../assets/closer.png" alt="logo">
+
+    </a>
+    Understanding Metadata
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Introductory course
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Introductory course
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.0%20Module%20Introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1%20Research%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 1.1 Research Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.2%20Research%20data%20management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 1.2 Research Data Management
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.3%20FAIR/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 1.3 FAIR
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.1%20Introduction%20to%20metadata/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 2.1 Introduction to Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.2%20Metadata%20in%20the%20research%20lifecycle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 2.2 Metadata in the Research Data Lifecycle
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.3%20Using%20metadata%20-%20discover%20data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 2.3 Using Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Unit 2.4 Controlled Vocabularies
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Unit 2.4 Controlled Vocabularies
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-study-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit study time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intended-learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcome
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-management-and-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata management and best practice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata management and best practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#poor-quality-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poor quality metadata
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impact-of-poor-quality-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impact of poor quality metadata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata best practice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata best practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#best-practice-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best practice principles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-to-implement-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools to implement best practice
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlled vocabularies
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Controlled vocabularies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-your-own-restricted-list-of-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating your own restricted list of terms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-a-publicly-available-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using a publicly available controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using a controlled vocabulary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using a controlled vocabulary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-can-we-use-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where can we use a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applying-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies-for-research-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlled vocabularies for research metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-find-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to find a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-a-controlled-vocabulary_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies-going-further" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlled vocabularies: going further
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reseources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reseources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.5%20Metadata%20standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 2.5 Metadata Standards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.6%20Creating%20metadata%2C%20study%20level/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 2.6 Creating Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../2.7%20Introduction%20summary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Unit 2.7 Summary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit overview
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unit-study-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unit study time
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#intended-learning-outcome" class="md-nav__link">
+    <span class="md-ellipsis">
+      Intended learning outcome
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-management-and-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata management and best practice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata management and best practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#poor-quality-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Poor quality metadata
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#impact-of-poor-quality-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Impact of poor quality metadata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata best practice
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Metadata best practice">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#best-practice-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Best practice principles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tools-to-implement-best-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tools to implement best practice
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlled vocabularies
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Controlled vocabularies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-your-own-restricted-list-of-terms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating your own restricted list of terms
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-a-publicly-available-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using a publicly available controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using a controlled vocabulary
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using a controlled vocabulary">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-can-we-use-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Where can we use a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applying-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Applying a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies-for-research-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlled vocabularies for research metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-find-a-controlled-vocabulary" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to find a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-a-controlled-vocabulary_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using a controlled vocabulary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controlled-vocabularies-going-further" class="md-nav__link">
+    <span class="md-ellipsis">
+      Controlled vocabularies: going further
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test your knowledge
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reseources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reseources
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<hr />
+<h1 id="unit-24-controlled-vocabularies">Unit 2.4 Controlled vocabularies</h1>
+<h2 id="unit-overview">Unit overview</h2>
+<h3 id="unit-study-time">Unit study time</h3>
+<ul>
+<li>2 hours</li>
+</ul>
+<h3 id="intended-learning-outcome">Intended learning outcome</h3>
+<ul>
+<li>Understand what controlled vocabularies are and their role in metadata creation</li>
+<li>Know how to find a relevant controlled vocabulary to use in metadata </li>
+<li>Gain a high-level understanding of theasuri, taxonomies and ontologies</li>
+</ul>
+<h2 id="metadata-management-and-best-practice">Metadata management and best practice</h2>
+<p>As we explored in the <a href="2.3 Using metadata%3A%20Discover data.md">last unit</a>, metadata can be leveraged as a search and filter tool on data catalogues. This enables people to find data based on keywords, topics or dates. Through being machine actionable, metadata is a powerful form of documentation that provides more functionality than unstructured documentation.</p>
+<p>In order to be machine actionable, computers need to be able to read metadata. Therefore, metadata must be structured and stored in appropriate, machine readable formats.</p>
+<p>In <a href="../2.1%20Introduction%20to%20metadata/">unit 2.1</a> we touched on machine readable formats that metadata should be stored in. This includes CSV, XML and JSON. By being in these formats, machines can read metadata and action it. Metadata should not be stored in free-text formats such as PDF or MS Word, as computers will not be able to read and interpret this information. </p>
+<p>However, just because machines can read metadata does not mean that metadata is automatically valuable as a discovery tool. </p>
+<p>For example, look at the screenshot below that shows filters for a shopping site based on the object's metadata.
+Why are these filters not helpful? What could be the issues with the clothes' metadata that are causing problems with the filters?</p>
+<p><img src="../img/Bad_filters.png" alt="Alt Text" width="250" height="450"> </p>
+<h3 id="poor-quality-metadata">Poor quality metadata</h3>
+<p>Duplicate terms, spelling errors, and wrongly placed categories create 'dirty' metadata which has limited use as a discovery tool. While machines can read dirty metadata, they can't action it correctly as the relationships between different objects are not correctly described by the metadata. This means you get search returns that confuse different items and mix different categories.</p>
+<p><img src="../img/Bad_metadata_circled.png" alt="Alt Text" width="280" height="470"> </p>
+<p><strong>[1+2]</strong> <strong>Inconsistent or incorrect terms</strong></p>
+<p>A computer doesn’t know that 'Shoees' is probably just a typo for 'Shoes', instead it treats them as two totally separate categories. Same goes for different terms like 'Trainers' and 'Sneakers.” Even though they mean the same thing to us, the system sees them as unrelated, which means your search results could miss half the data unless you manually spot and fix it.</p>
+<p><strong>[2]</strong> <strong>Incorrect strucutre</strong></p>
+<p>'Shoees' is also placed in the 'Size' category meaning it's linked to 'XS, S, M, L'. This is because the strucutre of the metadata and the relationship between the terms is incorrect. So while the computer can read this metadata, it can't action it correctly which means our ability to use metadata as a disocovery tool is hindered.</p>
+<p><strong>[3]</strong> <strong>Vague and undefined metadata</strong></p>
+<p>Then there’s vague metadata like “light blue” vs. “pale blue.” Are they the same colour? Should they be grouped together? Without clear definitions, it’s hard to tell, and that can lead to confusion or missed connections.</p>
+<p>Thinking back to the FAIR principles, dirty metadata makes it harder for metadata to be interoperable. The metadata can’t easily slot into data catalogues or repositories as they don't follow the specified structure. This means we can can't compare metadata for the study with other studies and we miss out on opportunites to re-use data and compare studies.</p>
+<h3 id="impact-of-poor-quality-metadata">Impact of poor quality metadata</h3>
+<p>'Dirty' (poor quality) metadata...</p>
+<ul>
+<li>Hinders the searchability and discoverability of data as computers cannot read and interpret the metadata effectively</li>
+<li>Reduces the reliability and validity of data as uncorrected errors remain in the documentation</li>
+<li>Reduces the interoperability of the data as it is harder to identify and compare similar objects</li>
+<li>Makes research processes more time consuming as people have to identify what terms are relevant for their search and work around errors</li>
+</ul>
+<p>'Dirty' metadata fails to effectively implement both the FAIR data principles and the main purpose of metadata: to increase the discovery, understanding and (re)usability of data.</p>
+<h2 id="metadata-best-practice">Metadata best practice</h2>
+<p>To help us overcome these issues and ensure metadata is high-quality and follows best practice.</p>
+<h3 id="best-practice-principles">Best practice principles</h3>
+<p>Some best practice principles to consider include...</p>
+<ul>
+<li><strong>Accurate</strong> descriptions that provide the appropriate level of information neccessary to understand a project</li>
+<li>Being <strong>consistent</strong> with the use of terms within a project's metadata to avoid confusion or misinformation</li>
+<li>Use <strong>standardised</strong> terms that are commonly used within the relevant discipline and are unlikely to become redunant</li>
+<li><strong>Interoperability</strong> of metadata with other studies' so it can be compared across resources and deposited on centralised platforms such as data catalogues where it can be searched and filtered</li>
+</ul>
+<h3 id="tools-to-implement-best-practice">Tools to implement best practice</h3>
+<p>Two main tools that are used implement metadata creation best practice are...</p>
+<ol>
+<li>Controlled vocabularies</li>
+<li>Metadata schemas and standards</li>
+</ol>
+<p>In this unit, we will look at controlled vocabularies and the related concepts of theasuri, taxonomies and ontologies.</p>
+<p>In the <a href="../2.5%20Metadata%20standards/">next unit (2.5)</a>, we will look at metadata schemas and standards.</p>
+<blockquote>
+<p>[!NOTE]
+BO - is there a citation for this, or is this what we understand as best practice? It reads to me as if these are an established set of rules/principles, like FAIR. I also think the last three points are a bit vague - can they be expanded on? E.g. I wouldn't know what this means and how to action it if I was new to metadata/CVs/standards "Persistent use of terms that don't expire".<br>
+HM - what does Searchability of metadata so it can be used to discover data mean? - KR have changed this to a point around interoperability as I think that was the core point around being able to 'search' on data catalogues etc</p>
+</blockquote>
+<h2 id="controlled-vocabularies">Controlled vocabularies</h2>
+<p>What are controlled vocabularies?</p>
+<p>CODATA defines controlled vocabularies as...</p>
+<blockquote>
+<p>'List of standardised terminology, words, or phrases, used for indexing or content analysis and information retrieval, usually in a defined information domain.'</p>
+</blockquote>
+<p>NBI Sweden defines them as...</p>
+<blockquote>
+<p>'A controlled vocabulary is a list of terms that describes a certain domain of knowledge. In the controlled vocabulary you <strong>only use one term to describe one particular phenomenon</strong>, excluding all other synonyms.'[^1]</p>
+</blockquote>
+<p>Simply, a controlled vocabulary provide a pre-defined list of input options for a metadata element. By restricting what information can be used, controlled vocabularies provide consistency and structure to metadata and reduces the risk of human errors and inconsistencies as explored above.</p>
+<h3 id="creating-your-own-restricted-list-of-terms">Creating your own restricted list of terms</h3>
+<p>You can create your own list of restricted terms for a metadata element. This means only those terms or values can be used. This can be considered a personal control vocabulary as you're only using it for your metadata needs. An individual might create a vocabulary or an organisation.</p>
+<p>For example, for metadata describing colour, we could restrict the terms to..</p>
+<ul>
+<li>Green</li>
+<li>Blue</li>
+<li>Black</li>
+<li>Red</li>
+<li>Orange</li>
+<li>Yellow</li>
+<li>Purple</li>
+<li>Pink</li>
+<li>White</li>
+</ul>
+<p>In the previous example, using this list would remove the issue of having confusing categories, 'pale blue' and 'light blue', and prevent the formatting error of 'Green' and 'green'. However, while we have restricted what information we can use, we don't necessarily know what the terms mean. As such, it's useful to provide definitions. </p>
+<p>For example ...</p>
+<ul>
+<li>Blue</li>
+<li>An object that's dominant colour is blue (including light and dark shades). If blue is present but not the main color, classify the object under its dominant color.</li>
+</ul>
+<p>If you're creating your own controlled vocabulary it's useful to have these definitions available in your documentation, so people can refer to them to understand your metadata. It also helps your future self when you come back to an old study, understanding how and why something was described in a certain way and what that description means.</p>
+<h3 id="using-a-publicly-available-controlled-vocabulary">Using a publicly available controlled vocabulary</h3>
+<p>There are publicly available controlled vocabularies that provide a pre-defined list of terms that relate to a specific discipline or area of knowledge. The vocabulary is created and updated by a relevant research community and are a type of community based standard. </p>
+<p>The power of a controlled vocabulary increases when it becomes widely adopted, as it makes metadata using the same vocabulary interoperable. This means metadata can be integrated into centralised systems (such as data catalogues that we explored in unit 2.3) and we can easily compare across studies and resources. As such, it's best practise to use publicly avaliable controlled vocabularies where possible. It also means you don't have to create a vocabulary from scratch so it saves you time in your metadata creation.</p>
+<p>For example, a country could be referred to in different ways ...</p>
+<ul>
+<li>America, United States, US</li>
+</ul>
+<p>Or in different languages ...</p>
+<ul>
+<li>Germany, Deutschland, Allemagne</li>
+</ul>
+<p>To standardise this infomration, we can use the publicly available controlled vocabulary <a href="https://www.iso.org/obp/ui/#search">ISO 3166-1 Alpha-2 Country Codes</a>. The controlled vocabulary provides two-letter codes for every country which can be used across languages, allowing us to standardise how we refer to countries across different research projects </p>
+<ul>
+<li>US – United States</li>
+<li>DE – Germany</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+JJ - There are two issues, one is it is good practice to use a restricted list of terms, which is made very well, I think we could say CVs in a research or statistical context which is where the community based standards should be emphasised, but we are using the terms interchanagly as they serve the same purpose, but that might be something to save for Foundational <br>
+KR I have added a senstence about controlled list of terms to separate that out to indicate how they can be used to aid metadata creation.</p>
+</blockquote>
+<p>[^1]: https://nbisweden.github.io/module-metadata-dm-practices/guide/index.html). I think it gives a bit more depth than the CODATA definition which is this 'List of standardised terminology, words, or phrases, used for indexing or content analysis and information retrieval, usually in a defined information domain.'<br></p>
+<h2 id="using-a-controlled-vocabulary">Using a controlled vocabulary</h2>
+<p>Here is some metadata for a list of books. What columns do you think could benefit from using a controlled vocabulary? Why?</p>
+<table>
+<thead>
+<tr>
+<th>Book title</th>
+<th>Author</th>
+<th>Original language</th>
+<th>Language</th>
+<th>Genre</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>To Kill A Mockingbird</td>
+<td>Harper Lee</td>
+<td>English</td>
+<td>eng</td>
+<td>Fiction</td>
+<td>14</td>
+</tr>
+<tr>
+<td>On Social Contract</td>
+<td>Rousseau, Jean-Jacques</td>
+<td>french</td>
+<td>english</td>
+<td>Political non-fiction</td>
+<td>5</td>
+</tr>
+<tr>
+<td>The Odyessy</td>
+<td>Homer</td>
+<td>Ancient Greek</td>
+<td>Greek</td>
+<td>Poetry fiction</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Lord Of The Flies</td>
+<td>Golding, W.</td>
+<td>English</td>
+<td>en</td>
+<td>Coming-of-age literature</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<h3 id="where-can-we-use-a-controlled-vocabulary">Where can we use a controlled vocabulary</h3>
+<p>We could apply a controlled vocabulary to the 'Original language', 'Language', and 'Genre' columns. This is because they will use similar or repeated terms that we need to ensure are standardised across our dataset. </p>
+<p>As the book title and author column will contain unique data for each object and will continue to grow as new books are brought in, we can't use a controlled vocabulary. However, we can standardise how we write this information, for example, for 'Author' we could format the information as 'surname, firstname' or 'firstname surname' or 'firstname initial, surname' etc. You may use a metadata standard or schema as guidance on how to format these columns. We will explore this in the next <a href="../2.5%20Metadata%20standards/">unit 2.5 Metadata standards</a>.</p>
+<p>Looking at the data in those columns, what are some of the current issues?</p>
+<details>
+<summary><b>Current issues in the book metadata</b></summary>
+<p></p>
+<ul>
+<li>Data is presented in different ways: _English, eng, en_</li>
+<li>Different levels of specficity of data in the genre column: _Fiction_ compared to _Coming-of-age literature_ and similar terms _Fiction_ and _Literature_ are used interchangeably with no further clarification</li>
+<ul>
+<p></p>
+Controlled vocabularies provide a way to standardise these terms. The definitions for the terms have been widely agreed within a discipline and can save you time by referring directly to them rather than defining them yourself in your own documentation.
+</details>
+
+<h3 id="applying-a-controlled-vocabulary">Applying a controlled vocabulary</h3>
+<p>Going back to the book example, we could use the following controlled vocabularies for the Language and Genre metadata fields.</p>
+<ul>
+<li>A widely adopted cross-disciplinary controlled vocabulary for language names is the <a href="https://iso639-3.sil.org/code_tables/639/data">ISO 639-1/639-3</a></li>
+<li>
+<p>ISO 639-1/639-3 specifies how to write languages in three letter codes e.g. English = eng, French = fra, Ancient Greek = grc, Modern Greek = ell</p>
+</li>
+<li>
+<p>A domain-specific controlled vocabulary for labelling genres in library archiving is the <a href="https://www.loc.gov/aba/publications/FreeLCGFT/freelcgft.html">Library of Congress Genre/Form Terms for Library and Archival Materials</a></p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Book title</th>
+<th>Author</th>
+<th>Original language</th>
+<th>Language</th>
+<th>Genre</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>To Kill A Mockingbird</td>
+<td>Harper Lee</td>
+<td>eng</td>
+<td>eng</td>
+<td>Legal fiction; Domestic fiction; Bildungsromans</td>
+<td>14</td>
+</tr>
+<tr>
+<td>On Social Contract</td>
+<td>Jean-Jacques Rousseau</td>
+<td>fra</td>
+<td>eng</td>
+<td>Political literature; Philosophical literature</td>
+<td>5</td>
+</tr>
+<tr>
+<td>The Odyessy</td>
+<td>Homer</td>
+<td>grc</td>
+<td>ell</td>
+<td>Epic poetry; Mythological fiction; Adventure fiction</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Lord Of The Flies</td>
+<td>William Golding</td>
+<td>eng</td>
+<td>eng</td>
+<td>Allegories; Psychological fiction; Adventure fiction</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>By standardising the metadata, we avoid confusion around inconsistent categories or different levels of information. Instead, we can compare the same type of metadata across different objects as the metadata is interoperable. This means we can deposit the metadata into a centralised platform, like a library catalogue, where machines can effectively read it in order to use the metadata as a search and filter tool.</p>
+<p>In the metadata records, you can also reference which controlled vocabularies are used so other people looking at the metadata can reference the original vocabulary as a single source of truth for the definitions of the terms.</p>
+<h2 id="controlled-vocabularies-for-research-metadata">Controlled vocabularies for research metadata</h2>
+<p>Let's consider other common research metadata that we should use controlled vocabularies for.</p>
+<p><strong>Cross discipline</strong></p>
+<p>You may use cross discipline controlled vocabularies for the following research metadata...</p>
+<ul>
+<li>Countries</li>
+<li>For metadata that describes where the research was conducted</li>
+<li>Languages</li>
+<li>For metadata that describes that language the data is stored in</li>
+<li>File format</li>
+<li>For metadata that describes what format the data is stored in</li>
+<li>Access and copyright</li>
+<li>For metadata that describes a research project's access and copyright licenses</li>
+</ul>
+<p><strong>Discipline specific</strong></p>
+<p>You may use controlled vocabularies for discipline specific metadata such as...</p>
+<ul>
+<li>Metadata describing data collection methods or instruments e.g. Questionnaries, Surveys, Focus Groups </li>
+<li>Metadata describing specialised terms and/or categories e.g. disease names in life sciences</li>
+<li>Metadata describing subjects or concepts specific to your discipline </li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+BO - Can we provide examples for the last two bullet points?
+JJ lets remove the last two bullet points, introducing keywords is the opposite of a CV! and standardised scales is not an area wher they are widely used</p>
+</blockquote>
+<h2 id="how-to-find-a-controlled-vocabulary">How to find a controlled vocabulary</h2>
+<p>Once you identify what metadata you can apply a controlled vocabulary to, you need to find a relevant one to use.</p>
+<p>Your research area or academic discipline may use and encourage certain controlled vocabularies. For example, if you had oceanographic data in the UK, you may want to use the <a href="https://vocab.nerc.ac.uk/collection/">Natural Environment Research Council (NERC) Vocabulary Server</a> which lists all relevant controlled vocabularies for that field. The European Union also provide a <a href="https://op.europa.eu/en/web/eu-vocabularies/controlled-vocabularies">list of controlled vocabularies</a> for data and resources relating to their work and CESSDA have created a place a search controlled vocabularies relating to <a href="https://vocabularies.cessda.eu/">social science research here</a>.</p>
+<p>If you are storing your data in a repository or using a metadata standard or schema, they may specify certain controlled vocabularies to use and/or have produced controlled vocabularies as part of the standard (note, we will cover metadata standards in <a href="../2.5%20Metadata%20standards/">unit 2.5</a>).</p>
+<p>You can also find controlled vocabularies yourself, using websites such as <a href="https://bartoc.org/">Bartoc</a> which compiles many different controlled vocabularies from different sources allowing you to search and filter across disciplines so you can find a relevant vocabulary. </p>
+<p>When choosing a controlled vocabulary you should consider...
+- Uptake of the controlled vocabulary in your research field. If you find two controlled vocabularies that cover similar, it is usually best practice the one which is more widely used. THis 
+- If you're using a metadata standard, it may specify which controlled vocabulary to use
+- If you're depositing your data and metadata in a repository and/or catalogue, they might specify which controlled vocabulary you should use</p>
+<p>For example, say you're creating metadata for a social science study. You want to capture information about the analysis unit (the entity the study analyses) and describe the type of data you collected for each variable (e.g. whether it was string, integer, decimal, date-time etc.)</p>
+<p>Using the <a href="https://bartoc.org/">Bartoc</a> tool, can you identify controlled vocabularies you may want to use?</p>
+<details>
+<summary><b>Controlled vocabularies you could use</b></summary>  
+<p></p>
+If you search 'analysis unit', you see ...
+<p></p>
+<img src="img/AnalysisUnit-DDICV.png" alt="Alt Text" width="425" height="390">   
+<p></p>
+If you search 'type of data' into Bartoc you find ...
+<p></p>
+<img src="img/Datatype-DDICV.png" alt="Alt Text" width="425" height="390"> 
+<p></p>
+
+<a href="https://rdf-vocabulary.ddialliance.org/ddi-cv/AnalysisUnit/2.1.3/AnalysisUnit.pdf">Anaylsis unit</a> and <a href="https://rdf-vocabulary.ddialliance.org/ddi-cv/DataType/1.1.2/DataType.pdf">Data type</a> are controlled vocabularies from DDI, a metadata standard for social science research which is widely used by the social science research community. 
+<p></p>
+For example ...
+<p></p>
+<table border="1" style="border-collapse: collapse; width: 60%;">
+  <thead>
+    <tr>
+      <th>Metadata element</th>
+      <th>Data type</th>
+      <th>Analysis unit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Age</td>
+      <td>Positive integer</td>
+      <td>Individual</td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>String</td>
+      <td>Individual</td>
+    </tr>
+    <tr>
+      <td>Household income</td>
+      <td>Decimal</td>
+      <td>Household</td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+</details>
+
+<p>Now try using <a href="https://bartoc.org/">Bartoc tool</a> or another search site we have reference in this unit to find a controlled vocabulary that is relevant for your area of research.</p>
+<h2 id="using-a-controlled-vocabulary_1">Using a controlled vocabulary</h2>
+<p>If you're using a controlled vocabulary, you should reference it in your metadata so people can easily reach the definition for your term. You can do this by linking the term to the controlled vocabularly in your metadata for the dataset or resource, including it in your metadata schema (we will looking at metadata</p>
+<p>For example ...</p>
+<p><strong>Including contolled vocabulary reference in your documentation</strong> </p>
+<table>
+<thead>
+<tr>
+<th>Book title</th>
+<th>Definition</th>
+<th>Controlled vocabulary reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Book title</td>
+<td>Title of book as it appears on book cover</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Author</td>
+<td>Full name of author: Last name, First name</td>
+<td>fra</td>
+</tr>
+<tr>
+<td>Original language</td>
+<td>Original language of first edition publication of book</td>
+<td><a href="https://iso639-3.sil.org/code_tables/639/data">ISO 639-1/639-3</a></td>
+</tr>
+<tr>
+<td>Language</td>
+<td>Language of the book</td>
+<td><a href="https://iso639-3.sil.org/code_tables/639/data">ISO 639-1/639-3</a></td>
+</tr>
+<tr>
+<td>Genre</td>
+<td>Genre of book</td>
+<td><a href="https://www.loc.gov/aba/publications/FreeLCGFT/freelcgft.html">Library of Congress Genre/Form Terms for Library and Archival Materials</a></td>
+</tr>
+<tr>
+<td>Quantity</td>
+<td>Quantity of books currently stocked</td>
+<td><a href="https://www.loc.gov/aba/publications/FreeLCGFT/freelcgft.html">Library of Congress Genre/Form Terms for Library and Archival Materials</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Linking controlled vocabularies in your metadata</strong></p>
+<table>
+<thead>
+<tr>
+<th>Book title</th>
+<th>Author</th>
+<th>Original language</th>
+<th>Language</th>
+<th>Genre</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>To Kill A Mockingbird</td>
+<td>Harper Lee</td>
+<td><a href="[https://iso639-3.sil.org/code_tables/639/data">eng</a></td>
+<td><a href="[https://iso639-3.sil.org/code_tables/639/data">eng</a></td>
+<td><a href="https://www.loc.gov/aba/publications/FreeLCGFT/freelcgft.html">Legal fiction; Domestic fiction; Bildungsromans</a></td>
+<td>14</td>
+</tr>
+<tr>
+<td>On Social Contract</td>
+<td>Jean-Jacques Rousseau</td>
+<td>fra]([https://iso639-3.sil.org/code_tables/639/data)</td>
+<td><a href="[https://iso639-3.sil.org/code_tables/639/data">eng</a></td>
+<td><a href="https://www.loc.gov/aba/publications/FreeLCGFT/freelcgft.html">Political literature; Philosophical literature</a></td>
+<td>5</td>
+</tr>
+<tr>
+<td>The Odyessy</td>
+<td>Homer</td>
+<td><a href="[https://iso639-3.sil.org/code_tables/639/data">grc</a></td>
+<td><a href="[https://iso639-3.sil.org/code_tables/639/data">ell</a></td>
+<td><a href="https://www.loc.gov/aba/publications/FreeLCGFT/freelcgft.html">Epic poetry; Mythological fiction; Adventure fiction</a></td>
+<td>9</td>
+</tr>
+<tr>
+<td>Lord Of The Flies</td>
+<td>William Golding</td>
+<td><a href="[https://iso639-3.sil.org/code_tables/639/data">eng</a></td>
+<td><a href="[https://iso639-3.sil.org/code_tables/639/data">eng</a></td>
+<td><a href="https://www.loc.gov/aba/publications/FreeLCGFT/freelcgft.html">Allegories; Psychological fiction; Adventure fiction</a></td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="controlled-vocabularies-going-further">Controlled vocabularies: going further</h2>
+<p>If you work with controlled vocabularies, you may also come across theasuri, taxonomies and ontologies. While these lists have a similar purpose to standardise metadata, they have slightly different features to controlled vocabularies.</p>
+<p>As we covered earlier in this unit, controlled vocabularies offer <strong>one term</strong> to describe one concept. Thesauri provide multiple terms - including synonyms and related terms - that are commonly used for the same concept. They may specify the preferred term to use.</p>
+<p>While controlled lists are a flat list that do not specify relationships between terms, taxonomies and ontologies describe the connections between terms. This includes the hierarchy of terms, for example a broad term that has a sub-group of narrower terms within it (also referred to as a parent/child terms, where a parent term has child terms (sub-terms) within it). For example, the broad (parent) term Education could have narrower (child) terms of: Primary Education, Secondary Education, Higher Education, Vocational Training</p>
+<blockquote>
+<p>[!NOTE]
+SW can you explain a bit more explicitly the 'parent/child' term? As in what makes this a sub-term. Just a sentence as Im unclear which is the main term/sub term <br>
+HM - "As we covered earlier in this unit, controlled vocabularies offer one preferred term to describe a single concept. Thesauri provide multiple terms—including synonyms and related terms—that are commonly used for the same concept. They may specify the preferred term to use."
+HM -disucssed this section with Kate about not needing too much detail about each one, but should highlight that there are differnent types of CVs including theasuri, ontologies etc. Could move to later training and the colour filtering example could be used to show how relationships could work. </p>
+</blockquote>
+<p>The image below describes how the strength of semantics relate to different systems.</p>
+<p>Strong semantics refer to systems that are more specific and complex in describing terms and the relationships to each other.  </p>
+<p><img src="../img/CoData-CVs-flow.png" alt="Alt Text" width="550" height="250"></p>
+<p>If you want to find out more about the features of these different knowledge systems, you can click through the boxes below. While they have slightly different features, each knowledge system has the same role and purpose in metadata, to provide a standardised list of terms for describing data and resources in order to gain consistency.</p>
+<details>
+<summary><b>Theasuri</b></summary>
+<p></p>
+
+Instead of providing a singular term, thesauri specifics a preferred term alongside variant terms, broader terms and narrower terms. They can also contain related terms that describe similar concepts.
+
+For example ...
+<ul>
+<li>Getty Institute Art and Architecture Thesaurus Online (AAT) lists terms for art, architecture, decorative arts, material culture, and archival materials</li>
+<li>UNESCO Thesaurus is the list of terms used in education, culture, natural sciences, social sciences, human sciences, communication and information</li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>Classifications</b></summary>
+<p></p>
+
+Classifications group similar items or terms into categories, defining the parameters of each category. These categories can be flat or hierarchial. Classifications are most often discipline specific.
+
+For example ...
+<ul>
+<li>Disease and health conditions: International Classification of Disease (ICD)</li>
+ <ul>
+ <li>International standard to specifing terms to describe diseases and health conditions for clinical  and research purposes</li>
+ </ul>
+<li>[International Standard Classification of Occupations (ISCO)](https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/)</li>
+ <ul>
+ <li>Groups and categorises data on occupation and employment</li>
+ </ul>
+</ul>
+
+</details>
+
+<details>
+<summary><b>Taxonomies</b></summary>
+<p></p>
+
+Taxonomies not only define terms but also outline hierarchical structures between different terms, specifying parent/child relationships (broad terms with narrower sub-terms within them).
+
+For example ...
+<ul>
+<li>[Taxonomy of Innovation](https://hbr.org/2014/01/a-taxonomy-of-innovation)</li>
+</ul>
+
+</details>
+
+<details>
+<summary><b>Ontologies</b></summary>
+<p></p>
+
+CODATA defines an ontology as...<br>
+'Shared and standardised list of words, terms and phrases to describe components of a particular discipline or domain, along with a taxonomy of their relations... Ontologies are typically developed by domain-specific institutions or communities to aid in the precise referencing of elements.'
+<p></p>
+Where taxonomies are focused on defining hierarchial relationships, ontologies have a wider reach and describe relationships between concepts and objects beyond hierarchial terms. For example, it may specify if an object is 'part of' or 'equaivalent to' something else. In this way, it is a more sophisticated and detailed description of the relationships between items.
+<p></p>
+For example ...
+
+<ul>
+<li>[Ontology for General Medical Science](https://bioportal.bioontology.org/ontologies/OGMS?p=summary)</li>
+<li>[Environment Ontology](https://sites.google.com/site/environmentontology/Browse-EnvO)</li>
+</ul>
+
+<p></p>
+
+</details>
+
+<h2 id="test-your-knowledge">Test your knowledge</h2>
+<p>True or false...</p>
+<ul>
+<li>Controlled vocabularies help ensure consistency in metadata by using agreed-upon terms.</li>
+<li>Controlled vocabularies are automatically generated by all metadata tools.</li>
+<li>Controlled vocabularies allow metadata creators to write free-text descriptions.</li>
+<li>You only use one controlled vocabulary for your entire metadata.</li>
+<li>You can create your own controlled vocabulary.</li>
+</ul>
+<p>Questions...</p>
+<ul>
+<li>How do controlled vocabularies make metadata more interoperable?</li>
+<li>How can you find a relevant controlled vocabulary for your metadata?</li>
+<li>When should you find a controlled vocabulary?</li>
+</ul>
+<details>
+<summary><b>Answers</b></summary>
+<p></p>
+
+<ul>
+<li>True or false...</li>
+ <ul>
+ <li>Controlled vocabularies help ensure consistency in metadata by using agreed-upon terms. <b>TRUE</b></li>
+ <li>Controlled vocabularies are automatically generated by all metadata tools. <b>FALSE</b> </li>
+ <li>Controlled vocabularies allow metadata creators to write free-text descriptions. <b>FALSE</b>  </li>
+ <li>You only use one controlled vocabulary for your entire metadata. <b>FALSE</b> </li>
+ <li>You can create your own controlled vocabulary. <b>TRUE</b> </li>
+ </ul>
+<li>Questions...</li>
+ <ul>
+ <li>By standardising terms and definitions, controlled vocabularies help make metadata consistent and reduce the potential for human errors and the use of confusing terms. When different studies use the same controlled vocabularies, metadata can be integrated and compared meaning it is more interoperable. </li>
+
+ <li>You can search repositories like [Bartoc](https://bartoc.org/) or domain specific repositories such as [Bioportal](https://bioportal.bioontology.org/) to find a relevant controlled vocabulary. You can also consult subject matter experts and academics or review published datasets.  </li>
+
+ <li>Ideally, you should identify the controlled vocabularies you want to use at the start of the research lifecycle before data collection begin so terms can be applied consistently. Controlled vocabularies may also influence how you design your data collection method.  </li>
+ </ul>
+</ul>
+
+</details>
+
+<h2 id="reseources">Reseources</h2>
+<ul>
+<li>NBISweden (2020) <em>Controlled vocabularies &amp; ontologies</em> www.nbisweden.github.io/module-metadata-dm-practices/02-ontologies/index.html</li>
+<li>Dzikowski, C., Bell, D., Gregory, A. (DDI Alliance and CODATA) (2022) <em>DDI Controlled Vocabularies</em> [Online video] www.codata.org/initiatives/data-skills/ddi-training-webinars/ddi-controlled-vocabularies-the-cessda-workbench-skos-and-xkos/</li>
+<li>Gourley, D., Zhang, A. B. (2009) 'Creating metadata' pp 73-88 in <em>Creating Digital Collections: A Practical Guide</em> Chandos Available at: 
+https://doi.org/10.1016/B978-1-84334-396-7.50006-7</li>
+<li>September 2020; updated April 2021 to add citation link and clarify Term List examples
+Childress, D., Gueguen, G., Hardesty, J., Pattillo, R., Radio, E., Rayle, L. (2020) Decision Tree Levels for Controlled Vocabularies <em>Samvera</em> www.docs.google.com/document/d/1YB7ugyI8yJPWE8qI6J8pwkD8RNLOIxv5NIgr30-HAo8/edit?tab=t.0#heading=h.c19wz64z9fbz</li>
+<li>DDI (2025) DDI and Controlled Vocabularies https://doi.org/10.5281/zenodo.17235506</li>
+<li>University of Pittsburgh (2025) <em>What are taxonomies and controlled vocabularies?</em> www.pitt.libguides.com/metadatadiscovery/controlledvocabularies</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.1e8ae164.min.js"></script>
+      
+    
+  </body>
+</html>
