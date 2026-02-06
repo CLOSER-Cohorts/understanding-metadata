@@ -57,8 +57,8 @@ This work is licensed under a
 
 Thank you to all those who have helped to improve the resource
 
-- Claudia Alioto (CLOSER)
-- Joffrey Bécart (SciencesPo)
+- [Claudia Alioto](https://orcid.org/0009-0005-7584-1140) (CLOSER)
+- [Joffrey Bécart](https://orcid.org/0009-0006-2818-5037) (SciencesPo)
 
 
 
