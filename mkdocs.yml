@@ -24,7 +24,7 @@ nav:
     - 3.0 Metadata activity: "introduction/activity.md"
     - 4.0 Summary: "introduction/2.7 Introduction summary.md"  
   - Foundation course: 
-    - Overview: "foundation/0 F_overview_planning.md"
+   # - Overview: "foundation/0 F_overview_planning.md"
     - Getting started: "foundation/0. Getting started.md"
    # - Introduction: "foundation/1.0  Introduction.md"
     - 1.1 Who should Create Metadata?: "foundation/1.1 Who should create metadata.md"
