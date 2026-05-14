@@ -15,13 +15,13 @@ authors:
 
     **Intended Learning Outcomes**
 
-   By the end of the unit, you will be able to ...
+     By the end of the unit, you will be able to ...
 
-    - Identify key metadata elements
-    - Evaluate dataset suitability
-    - Apply good metadata practices to support FAIR (Findable, Accessible, Interoperable, Reusable) data principles
+     - Identify key metadata elements
+     - Evaluate dataset suitability
+     - Apply good metadata practices to support FAIR (Findable, Accessible, Interoperable, Reusable) data principles
 
-## Activity: Evaluating a dataset using metadata
+## Evaluating a dataset using metadata
 
 !!! question ""
 
@@ -31,16 +31,16 @@ authors:
 
 ---
 
-### Dataset metadata
+    **Dataset metadata**
 
-- **Title:** Health and Lifestyle Survey  
-- **Creator:** –  
-- **Date:** 2018–2019  
-- **Geographic coverage:** UK  
-- **Topics:** Exercise, diet, demographics, hobbies  
-- **File format:** CSV  
-- **Documentation:** Codebook  
-- **License:** Not specified  
+    - **Title:** Health and Lifestyle Survey  
+    - **Creator:** –  
+    - **Date:** 2018–2019  
+    - **Geographic coverage:** UK  
+    - **Topics:** Exercise, diet, demographics, hobbies  
+    - **File format:** CSV  
+    - **Documentation:** Codebook  
+    - **License:** Not specified  
 
 ---
 
@@ -51,6 +51,7 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
 ??? success "Example answer"
 
     **Missing or unclear metadata:**
+    
     - Creator (who produced the data)  
     - Population  
     - Sample size  
@@ -61,10 +62,11 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
     - Geographic detail  
 
     **Useful metadata:**
+    
     - Topics provide an indication of relevance  
     - Presence of a codebook (even if not accessible)  
     - File format (CSV)  
-    - Time period (2018–2019)  
+    - Time period
 
 ---
 
@@ -76,19 +78,15 @@ Based on the metadata, would you use this dataset for your research?
 
     No as it is unclear whether this dataset is suitable based on the available metadata.
 
-    - The data only covers the pre-pandemic period (2018–2019), 
-      so it does not support comparison with post-pandemic data. 
-      It also does not state whether similar data was collected later.  
+    - The data only covers the pre-pandemic period (2018–2019), so it does not support comparison with post-pandemic data. It also does not state whether similar data was collected later.  
 
     - The population is not described, so it is unclear whether young adults are included.  
 
-    - Geographic coverage is broad (UK). While this may include Wales, 
-      this is not explicit and does not indicate sample size or breakdown.  
+    - Geographic coverage is broad (UK). While this may include Wales, this is not explicit and does not indicate sample size or breakdown.  
 
     - Missing creator information makes it difficult to assess credibility.  
 
-    - Licensing is unclear, so reuse may not be permitted or may involve 
-      restrictions (e.g. fees, application process, secure access).  
+    - Licensing is unclear, so reuse may not be permitted or may involve restrictions (e.g. fees, application process, secure access).  
 
     - Variables are not listed, so it is unclear whether relevant measures are included.  
 
@@ -117,10 +115,11 @@ and decide whether it is suitable for your research?
 ??? success "Example answer"
 
     **Key improvements (quick summary):**
+    
     - Add population and methodology details  
     - Clarify geographic coverage  
     - Provide licensing and access information  
-    - Include a persistent identifier (e.g. DOI)  
+    - Include a persistent identifier to the data (e.g. DOI)  
     - Provide a link to the codebook  
 
     **More detailed improvements:**
@@ -129,45 +128,41 @@ and decide whether it is suitable for your research?
     recognised standards and controlled vocabularies.
 
     - **Apply a metadata standard (e.g. Dublin Core):**
+          - *Title* – Expand to include more relevant details (e.g. study name, population)  
+            → Improves findability and helps assess relevance  
 
-      - *Title* – Expand to include more relevant details (e.g. study name, population)  
-        → Improves findability and helps assess relevance  
+          - *Creator* – Include the organisation or researchers responsible (add ORCID IDs)  
+            → Supports trust and assessment of data quality  
 
-      - *Creator* – Include the organisation or researchers responsible  
-        → Supports trust and assessment of data quality  
+          - *Description* – Provide a clear summary including purpose, methodology, and population  
+            → Improves understanding and suitability decisions  
 
-      - *Description* – Provide a clear summary including purpose, methodology, and population  
-        → Improves understanding and suitability decisions  
+          - *Publisher* – State the organisation hosting the data  
+            → Helps locate and assess reliability  
 
-      - *Publisher* – State the organisation hosting the data  
-        → Helps locate and assess reliability  
+          - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
+            → Improves relevance to the research question  
 
-      - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
-        → Improves relevance to the research question  
+          - *Identifier* – Include a DOI or stable link  
+            → Ensures reliable access and citation  
 
-      - *Identifier* – Include a DOI or stable link  
-        → Ensures reliable access and citation  
+          - *Rights* – Clearly state licensing and reuse conditions  
+            → Enables decisions about access and reuse  
 
-      - *Rights* – Clearly state licensing and reuse conditions  
-        → Enables decisions about access and reuse  
-
-    - **Improve documentation:**
+    - **Improve detailed documentation:**
         - Ensure the codebook is accessible  
         - Include variable-level metadata (names, labels, definitions)  
         → Supports interpretation and analysis  
 
-    - **Improve attribution:**
-        - Include ORCIDs  
-        → Improves transparency and trust  
-
     - **Use controlled vocabularies:**
-        - Standard subject terms (e.g. “physical activity”)  
+        - Standard subject terms or discipline-specific terms (e.g. “exercise” vs “physical activity”)  
         - Standard geographic codes (e.g. ISO 3166: GB-WLS)  
         → Improves searchability, consistency, and interoperability  
 
     **Overall:**
 
     These improvements make the dataset:
+    
     - **Easier to find** through clear titles, identifiers, and standardised terms  
     - **Easier to understand** through detailed descriptions and documentation  
     - **Easier to assess and reuse** through clear provenance, coverage, and licensing  
