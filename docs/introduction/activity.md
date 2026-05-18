@@ -126,38 +126,38 @@ The metadata could be improved by making it more complete, aligning it with reco
 
 - **Apply a metadata standard (e.g. Dublin Core):**
   
-  - *Title* – Expand to include more relevant details (e.g. study name, population)  
-    → Improves findability and helps assess relevance  
+      - *Title* – Expand to include more relevant details (e.g. study name, population)  
+        → Improves findability and helps assess relevance  
 
-  - *Creator* – Include the organisation or researchers responsible (add ORCID IDs)  
-    → Supports trust and assessment of data quality  
+      - *Creator* – Include the organisation or researchers responsible (add ORCID IDs)  
+        → Supports trust and assessment of data quality  
 
-  - *Description* – Provide a clear summary including purpose, methodology, and population  
-    → Improves understanding and suitability decisions  
+      - *Description* – Provide a clear summary including purpose, methodology, and population  
+        → Improves understanding and suitability decisions  
 
-  - *Publisher* – State the organisation hosting the data  
-    → Helps locate and assess reliability  
+      - *Publisher* – State the organisation hosting the data  
+        → Helps locate and assess reliability  
 
-  - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
-    → Improves relevance to the research question  
+      - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
+        → Improves relevance to the research question  
 
-  - *Identifier* – Include a DOI or stable link  
-    → Ensures reliable access and citation  
+      - *Identifier* – Include a DOI or stable link  
+        → Ensures reliable access and citation  
 
-  - *Rights* – Clearly state licensing and reuse conditions  
-    → Enables decisions about access and reuse  
+      - *Rights* – Clearly state licensing and reuse conditions  
+        → Enables decisions about access and reuse  
 
 - **Improve detailed documentation:**
   
-  - Ensure the codebook is accessible  
-  - Include variable-level metadata (names, labels, definitions)  
-    → Supports interpretation and analysis  
+      - Ensure the codebook is accessible  
+      - Include variable-level metadata (names, labels, definitions)  
+        → Supports interpretation and analysis  
 
 - **Use controlled vocabularies:**
   
-  - Standard subject terms or discipline‑specific terms (e.g. “exercise” vs “physical activity”)  
-  - Standard geographic codes (e.g. ISO 3166: GB-WLS)  
-    → Improves searchability, consistency, and interoperability  
+      - Standard subject terms or discipline‑specific terms (e.g. “exercise” vs “physical activity”)  
+      - Standard geographic codes (e.g. ISO 3166: GB-WLS)  
+        → Improves searchability, consistency, and interoperability  
 
 
     **Overall:**
