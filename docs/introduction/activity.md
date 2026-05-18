@@ -26,7 +26,7 @@ authors:
 !!! question ""
 
     You are looking for data to support a research project on physical activity 
-    in young adults in Wales before and after the Covid-19 pandemic.
+    in young adults in Wales before and after the COVID-19 pandemic.
 
     Below is a metadata record for a fictional dataset.
 
@@ -39,7 +39,7 @@ authors:
     - **Topics:** Exercise, diet, demographics, hobbies  
     - **File format:** CSV  
     - **Documentation:** Codebook  
-    - **License:** Not specified  
+    - **Licence:** Not specified  
 
 ### Task 1: What metadata is useful and what metadata is missing or unclear?
 
@@ -60,7 +60,7 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
 
     **Useful metadata:**
     
-    - Topics provide an indication of relevance  
+    - Topics indicate potential relevance  
     - Presence of a codebook (even if not accessible)  
     - File format (CSV)  
     - Time period
@@ -119,50 +119,54 @@ and decide whether it is suitable for your research?
     - Include a persistent identifier to the data (e.g. DOI)  
     - Provide a link to the codebook  
 
-    **More detailed improvements:**
+**More detailed improvements:**
 
-    The metadata could be improved by making it more complete and aligned with 
-    recognised standards and controlled vocabularies.
 
-    - **Apply a metadata standard (e.g. Dublin Core):**
-          - *Title* – Expand to include more relevant details (e.g. study name, population)  
-            → Improves findability and helps assess relevance  
+The metadata could be improved by making it more complete, aligning it with recognised standards, and using controlled vocabularies, all of which support FAIR principles.
 
-          - *Creator* – Include the organisation or researchers responsible (add ORCID IDs)  
-            → Supports trust and assessment of data quality  
+- **Apply a metadata standard (e.g. Dublin Core):**
+  
+  - *Title* – Expand to include more relevant details (e.g. study name, population)  
+    → Improves findability and helps assess relevance  
 
-          - *Description* – Provide a clear summary including purpose, methodology, and population  
-            → Improves understanding and suitability decisions  
+  - *Creator* – Include the organisation or researchers responsible (add ORCID IDs)  
+    → Supports trust and assessment of data quality  
 
-          - *Publisher* – State the organisation hosting the data  
-            → Helps locate and assess reliability  
+  - *Description* – Provide a clear summary including purpose, methodology, and population  
+    → Improves understanding and suitability decisions  
 
-          - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
-            → Improves relevance to the research question  
+  - *Publisher* – State the organisation hosting the data  
+    → Helps locate and assess reliability  
 
-          - *Identifier* – Include a DOI or stable link  
-            → Ensures reliable access and citation  
+  - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
+    → Improves relevance to the research question  
 
-          - *Rights* – Clearly state licensing and reuse conditions  
-            → Enables decisions about access and reuse  
+  - *Identifier* – Include a DOI or stable link  
+    → Ensures reliable access and citation  
 
-    - **Improve detailed documentation:**
-        - Ensure the codebook is accessible  
-        - Include variable-level metadata (names, labels, definitions)  
-        → Supports interpretation and analysis  
+  - *Rights* – Clearly state licensing and reuse conditions  
+    → Enables decisions about access and reuse  
 
-    - **Use controlled vocabularies:**
-        - Standard subject terms or discipline-specific terms (e.g. “exercise” vs “physical activity”)  
-        - Standard geographic codes (e.g. ISO 3166: GB-WLS)  
-        → Improves searchability, consistency, and interoperability  
+- **Improve detailed documentation:**
+  
+  - Ensure the codebook is accessible  
+  - Include variable-level metadata (names, labels, definitions)  
+    → Supports interpretation and analysis  
+
+- **Use controlled vocabularies:**
+  
+  - Standard subject terms or discipline‑specific terms (e.g. “exercise” vs “physical activity”)  
+  - Standard geographic codes (e.g. ISO 3166: GB-WLS)  
+    → Improves searchability, consistency, and interoperability  
+
 
     **Overall:**
 
     These improvements make the dataset:
     
-    - **Easier to find** through clear titles, identifiers, and standardised terms  
-    - **Easier to understand** through detailed descriptions and documentation  
-    - **Easier to assess and reuse** through clear provenance, coverage, and licensing  
+    - Easier to find through clear titles, identifiers, and standardised terms  
+    - Easier to understand through detailed descriptions and documentation  
+    - Easier to assess and reuse through clear provenance, coverage, and licensing  
 
 ---
 
