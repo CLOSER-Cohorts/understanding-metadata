@@ -114,8 +114,6 @@ If you wanted to use this dataset, what steps would you take?
     - Contact the data provider for clarification  
     - Search for alternative or additional datasets  
 
----
-
 ### Task 4: How could this metadata record be improved?
 
 What specific changes would make this metadata record easier to find, understand, 
@@ -131,8 +129,6 @@ and decide whether it is suitable for your research?
     - Provide access to documentation (e.g. codebook)  
     - Include a stable link or DOI  
     - Clearly state how the data can be used (licensing)  
-
----
 
     **Improvements to support suitability decisions:**
 
@@ -156,8 +152,6 @@ and decide whether it is suitable for your research?
     - **Access and licensing** – Clearly state how the data can be accessed and reused  
       → Enables decisions about whether the data can be used  
 
-    ---
-
     **Supporting standards and practices:**
 
     Some of these improvements reflect widely used metadata practices:
@@ -165,8 +159,6 @@ and decide whether it is suitable for your research?
     - Including **persistent identifiers** (e.g. DOIs) for reliable access  
     - Using common metadata elements (e.g. title, description, coverage) found in standards such as Dublin Core  
     - Using **controlled vocabularies** to improve consistency and searchability  
-
-    ---
 
     **Overall:**
 
@@ -176,16 +168,37 @@ and decide whether it is suitable for your research?
     - Easier to **understand**  
     - Easier to **decide whether it is suitable for a specific research question**
 
----
 
 ### Task 5: Reflection
 
-- Think about your own research or a dataset you have used. What metadata did you rely on most?  
+- What metadata did you rely on most when finding, understanding, or deciding whether to use the data?
 - What is one thing you will do differently when creating or using metadata after this activity?  
 
+??? success "Example answers"
+     There is no single correct answer. The goal is to recognise how different types of metadata support your ability to find, understand, and decide whether data is suitable.
+
+     You may have thought about how you...
+     
+    - needed metadata that helped filter or narrow down options, especially when searching across multiple datasets
+    - looked for metadata that helped to quickly judge relevance
+    - relied on metadata that gave enough context to understand the data i.e. what it represented and how it was created
+    - focused on metadata that reduced uncertainty and helped determine the data quality - anything that made me more confident about what the data actually contained 
+    - relied on whatever was easiest to see first even if was not the most important for assessing suitability
+    - focused on metadata that helped decide whether I could use the data (including whehther within my time and budget)
+
+    In the future you may try to... 
+    - think more about the user’s perspective and what someone else would need to know to decide if the data is suitable
+    - look for any relevent controlled vocabularies
+    - aim to reduce ambiguity in my metadata by making things clearer rather than assuming knowledge
+    - foucs on decision-making, not just description by asking “does this help someone decide whether to use the data?
+    - pay more attention to what might be missing
+    - be more intentional about what metadata I include, prioritising the information that matters most
+    - recognise metadata as part of the research process, not an add-on
+    - refer to metadata standards
+    
 ---
 
 ### Summary
 
-Good quality metadata allows researchers to quickly assess whether a dataset is relevant, reliable, and usable. Incomplete or unclear metadata can make valuable data difficult to find, interpret, or reuse. Metadata is not just descriptive, it supports decision-making throughout 
-the research process.
+Good quality metadata enables researchers to decide whether a dataset is suitable for their research by clearly describing the population, measurements, context, and access conditions. When key information is missing or unclear, it becomes difficult to judge whether the data are relevant, reliable, or usable.
+Metadata is not just descriptive, it supports informed decision making throughout the research process, helping users determine whether data can and should be used.
