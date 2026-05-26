@@ -187,6 +187,7 @@ and decide whether it is suitable for your research?
     - focused on metadata that helped decide whether I could use the data (including whehther within my time and budget)
 
     In the future you may try to... 
+    
     - think more about the user’s perspective and what someone else would need to know to decide if the data is suitable
     - look for any relevent controlled vocabularies
     - aim to reduce ambiguity in my metadata by making things clearer rather than assuming knowledge
