@@ -71,6 +71,18 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
 
 Based on the metadata, would you use this dataset for your research?
 
+??? note "Deciding if a dataset is suitable"
+
+    To decide whether a dataset is suitable for your research, it is helpful to consider:
+
+    - Does it cover the right people? → *Population*  
+    - Does it measure the right things? → *Variables / concepts*  
+    - Is it collected in the right way? → *Methodology*  
+    - Is it from the right place and time? → *Coverage*  
+    - Can I access and use it? → *Licensing and access*  
+
+    You can use these questions to guide your answer.
+
 ??? success "Example answer"
 
     No as it is unclear whether this dataset is suitable based on the available metadata.
@@ -112,61 +124,57 @@ and decide whether it is suitable for your research?
 ??? success "Example answer"
 
     **Key improvements (quick summary):**
-    
-    - Add population and methodology details  
-    - Clarify geographic coverage  
-    - Provide licensing and access information  
-    - Include a persistent identifier to the data (e.g. DOI)  
-    - Provide a link to the codebook  
 
-    **More detailed improvements:**
+    - Add clear information about the population and who the data represents  
+    - Describe what is measured and how the data were collected  
+    - Clarify when and where the data were collected  
+    - Provide access to documentation (e.g. codebook)  
+    - Include a stable link or DOI  
+    - Clearly state how the data can be used (licensing)  
 
+---
 
-    The metadata could be improved by making it more complete, aligning it with recognised standards, and using controlled vocabularies, all of which support FAIR principles.
+    **Improvements to support suitability decisions:**
 
-    - **Apply a metadata standard (e.g. Dublin Core):**
-  
-          - *Title* – Expand to include more relevant details (e.g. study name, population)  
-            → Improves findability and helps assess relevance  
+    The metadata should be improved so that a researcher can clearly decide whether the dataset is suitable for their research.
 
-          - *Creator* – Include the organisation or researchers responsible (add ORCID IDs)  
-            → Supports trust and assessment of data quality  
+    - **Population** – Specify who is included (e.g. age range, location)  
+      → Helps determine whether the data covers the right people  
 
-          - *Description* – Provide a clear summary including purpose, methodology, and population  
-            → Improves understanding and suitability decisions  
+    - **Variables and measures** – Provide a list of variables and what they represent  
+      → Helps assess whether the dataset measures the right things  
 
-          - *Publisher* – State the organisation hosting the data  
-            → Helps locate and assess reliability  
+    - **Data collection method** – Describe how the data were collected  
+      → Helps evaluate data quality and comparability  
 
-          - *Coverage* – Specify geographic detail (e.g. GB-WLS for Wales)  
-            → Improves relevance to the research question  
+    - **Time period and geographic coverage** – Provide more detail about when and where the data were collected  
+      → Helps assess whether the data is relevant to the research context  
 
-          - *Identifier* – Include a DOI or stable link  
-            → Ensures reliable access and citation  
+    - **Documentation** – Ensure the codebook is accessible and includes variable definitions  
+      → Supports correct interpretation  
 
-          - *Rights* – Clearly state licensing and reuse conditions  
-            → Enables decisions about access and reuse  
+    - **Access and licensing** – Clearly state how the data can be accessed and reused  
+      → Enables decisions about whether the data can be used  
 
-    - **Improve detailed documentation:**
-  
-          - Ensure the codebook is accessible  
-          - Include variable-level metadata (names, labels, definitions)  
-            → Supports interpretation and analysis  
+    ---
 
-    - **Use controlled vocabularies:**
-  
-          - Standard subject terms or discipline‑specific terms (e.g. “exercise” vs “physical activity”)  
-          - Standard geographic codes (e.g. ISO 3166: GB-WLS)  
-            → Improves searchability, consistency, and interoperability  
+    **Supporting standards and practices:**
 
+    Some of these improvements reflect widely used metadata practices:
 
-        **Overall:**
+    - Including **persistent identifiers** (e.g. DOIs) for reliable access  
+    - Using common metadata elements (e.g. title, description, coverage) found in standards such as Dublin Core  
+    - Using **controlled vocabularies** to improve consistency and searchability  
 
-        These improvements make the dataset:
-    
-        - Easier to find through clear titles, identifiers, and standardised terms  
-        - Easier to understand through detailed descriptions and documentation  
-        - Easier to assess and reuse through clear provenance, coverage, and licensing  
+    ---
+
+    **Overall:**
+
+    These improvements would make the dataset:
+
+    - Easier to **find**  
+    - Easier to **understand**  
+    - Easier to **decide whether it is suitable for a specific research question**
 
 ---
 
