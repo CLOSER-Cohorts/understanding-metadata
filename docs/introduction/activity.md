@@ -71,15 +71,15 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
 
 Based on the metadata, would you use this dataset for your research?
 
-??? note "Deciding if a dataset is suitable"
+??? note "Tip"
 
     To decide whether a dataset is suitable for your research, it is helpful to consider:
 
-    - Does it cover the right people? → *Population*  
-    - Does it measure the right things? → *Variables / concepts*  
-    - Is it collected in the right way? → *Methodology*  
-    - Is it from the right place and time? → *Coverage*  
-    - Can I access and use it? → *Licensing and access*  
+    - Does it cover the right people? e.g. Population  
+    - Does it measure the right things? e.g. Variables, concepts, unit type
+    - Is it collected in the right way? e.g. Methodology  
+    - Is it from the right place and time? e.g. Coverage  
+    - Can I access and use it? e.g. Licensing, access
 
     You can use these questions to guide your answer.
 
@@ -114,10 +114,11 @@ If you wanted to use this dataset, what steps would you take?
     - Contact the data provider for clarification  
     - Search for alternative or additional datasets  
 
+---
+
 ### Task 4: How could this metadata record be improved?
 
-What specific changes would make this metadata record easier to find, understand, 
-and decide whether it is suitable for your research?
+What specific changes would make this metadata record easier to find, and decide whether it is suitable for your research?
 
 ??? success "Example answer"
 
@@ -154,20 +155,11 @@ and decide whether it is suitable for your research?
 
     **Supporting standards and practices:**
 
-    Some of these improvements reflect widely used metadata practices:
-
     - Including **persistent identifiers** (e.g. DOIs) for reliable access  
     - Using common metadata elements (e.g. title, description, coverage) found in standards such as Dublin Core  
     - Using **controlled vocabularies** to improve consistency and searchability  
 
-    **Overall:**
-
-    These improvements would make the dataset:
-
-    - Easier to **find**  
-    - Easier to **understand**  
-    - Easier to **decide whether it is suitable for a specific research question**
-
+---
 
 ### Task 5: Reflection
 
@@ -179,27 +171,27 @@ and decide whether it is suitable for your research?
 
      You may have thought about how you...
      
-    - needed metadata that helped filter or narrow down options, especially when searching across multiple datasets
-    - looked for metadata that helped to quickly judge relevance
-    - relied on metadata that gave enough context to understand the data i.e. what it represented and how it was created
-    - focused on metadata that reduced uncertainty and helped determine the data quality - anything that made me more confident about what the data actually contained 
-    - relied on whatever was easiest to see first even if was not the most important for assessing suitability
-    - focused on metadata that helped decide whether I could use the data (including whehther within my time and budget)
+    - needed metadata that helped filter or narrow down options, especially when searching across multiple datasets e.g. year, topics
+    - looked for metadata that helped to quickly judge relevance e.g. concepts, title
+    - relied on metadata that gave enough context to understand the data i.e. what it represented and how it was created e.g. data collection, methodology, variables 
+    - focused on metadata that reduced uncertainty and helped determine the data quality - anything that made me more confident about what the data actually contained e.g. provenance, creator
+    - relied on whatever was easiest to see first even if was not the most important for assessing suitability e.g. title, keywords
+    - focused on metadata that helped decide whether I could use the data (including whether within my time and budget) e.g. licence, format, access conditions
 
     In the future you may try to... 
     
-    - think more about the user’s perspective and what someone else would need to know to decide if the data is suitable
-    - look for any relevent controlled vocabularies
+    - think more about what someone else would need to know to decide if the data is suitable
+    - look for any relevant controlled vocabularies
     - aim to reduce ambiguity in my metadata by making things clearer rather than assuming knowledge
-    - foucs on decision-making, not just description by asking “does this help someone decide whether to use the data?
-    - pay more attention to what might be missing
-    - be more intentional about what metadata I include, prioritising the information that matters most
-    - recognise metadata as part of the research process, not an add-on
+    - check to see what might be missing
+    - be more intentional about what metadata to include, prioritising the information that matters most
+    - spend more time on metadata and recognise it as part of the research process, not an add-on
     - refer to metadata standards
     
 ---
 
 ### Summary
 
-Good quality metadata enables researchers to decide whether a dataset is suitable for their research by clearly describing the population, measurements, context, and access conditions. When key information is missing or unclear, it becomes difficult to judge whether the data are relevant, reliable, or usable.
-Metadata is not just descriptive, it supports informed decision making throughout the research process, helping users determine whether data can and should be used.
+
+Good quality metadata is not just descriptive, it supports different stages of the research lifecycle, such as finding relevant datasets at the start of a project. When key metadata are missing or are unclear, it becomes difficult to judge whether data are relevant, reliable, or usable. In contrast, clear, well-structured and detailed metadata reduces uncertainty, supports informed decision making, and makes research processes easier and more efficient.
+
