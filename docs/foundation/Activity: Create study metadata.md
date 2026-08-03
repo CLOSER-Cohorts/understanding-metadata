@@ -36,15 +36,17 @@ You are preparing metadata for a study that will be added to your university rep
 
 Use the information below to create study metadata:
 
-Connection to greenspaces in capital cities across the UK' conducted by Joe Smith and Mary Jones collects data on residents of capital cities across the UK and their feelings toward greenspaces. Face-to-face interviews were conducted in September 2022 - June 2023 (London, Cardiff, Edinburgh, Belfast). The project consists of 4 datasets, one for each city. The interviews used Greenspace Connection Survey v2.0. Green Brick Org provided logistical support for the interviews. The dataset is published by Green City Data in 08/09/25. The dataset is stored in CSV and conducted in English. The data is open access with CC BY-NC rights. 
+!!! question ""
+
+    "'Connection to greenspaces in capital cities across the UK' conducted by Joe Smith and Mary Jones collects data on residents of capital cities across the UK and their feelings toward greenspaces. Face-to-face interviews were conducted in September 2022 - June 2023 (London, Cardiff, Edinburgh, Belfast). The project consists of 4 datasets, one for each city. The interviews used Greenspace Connection Survey v2.0. Green Brick Org provided logistical support for the interviews. The dataset is published by Green City Data in 08/09/25. The dataset is stored in CSV and conducted in English. The data is open access with CC BY-NC rights." 
     
-Note this is a fictional case study example for practice purposes only.
+_Note this is a fictional case study example for practice purposes only._
 
 Your metadata should allow a researcher to:
 
-- discover the study
-- understand its purpose and design
-- decide whether it is relevant to their research
+- Discover the study
+- Understand its purpose and design
+- Decide whether it is relevant to their research
 
 A strong metadata record will:
 
@@ -141,11 +143,11 @@ Make one or two improvements.
     There is no correct answer. The goal is to recognise which aspects of metadata require more interpretation or judgement.
     You may have thought the following was difficult...
     
-    -	deciding what information was most important to include e.g. study description
-    -	avoiding vague wording e.g. clearly explaining what the study measures
-    -	being specific when details were missing e.g. age range or inclusion criteria
-    -	writing in a way that was clear but concise
-    -	deciding whether to repeat information or not e.g. geographic coverage
+    -	Deciding what information was most important to include e.g. study description
+    -	Avoiding vague wording e.g. clearly explaining what the study measures
+    -	Being specific when details were missing e.g. age range or inclusion criteria
+    -	Writing in a way that was clear but concise
+    -	Deciding whether to repeat information or not e.g. geographic coverage
 
     You may have identified some of the following information as missing:
     
