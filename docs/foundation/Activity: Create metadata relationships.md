@@ -89,7 +89,7 @@ Think about the minimum metadata you would create for this study and dataset. Yo
 - Dataset metadata 
 - Variable metadata
 
-You can download and use this Excel template to organise your metadata. If you prefer you can use another tool as long as you create the metadata. Note the example answer will be in the template.  
+You can download and use this Excel template to organise your metadata. If you prefer you can use another tool as long as you create the metadata. Note the example answer will be in the template below.  
 
 [YLT Metadata template](<./YLT_metadata_template.xlsx>)
 
@@ -118,7 +118,7 @@ Your aim is to show how a researcher could trace meaning across levels from a da
 Edit your Excel to include the relationships between the metadata across the worksheet tabs. If you prefer you can draw a simple diagram using arrows or describe the relationships using bullet points. Note the example answer will be in the template.  
 
 ??? success "Example answer"
-    Download this completed Excel template to compare your answers. Focus on how the different levels (study, dataset, variable, question, codes) are connected.
+    Download this completed Excel template to compare your answers. Focus on how the different levels (study, dataset, variable, question, codes) are connected. Note the additional fields have blue text. 
 
    
     [YLT Metadata template example relationships](<./YLT_metadata_example_relationships.xlsx>)
@@ -126,7 +126,12 @@ Edit your Excel to include the relationships between the metadata across the wor
 
     What to notice in this example
 
+    - Studies can contain one or more datasets
+    - Datasets contain variables
+    - Variables are derived from questions asked in the survey
+    - Some questions use controlled response categories, which are defined in codelists
     - Each level is clearly linked using IDs (Study_ID, Dataset_ID, Question_ID)
+    - Some questions (for example Q7, Q8 and Q9) include both a categorical response and a free-text response. Meaning, a single question can potentially generate more than one variable. In this example however, the dataset only contains variables for the categorical responses. It is not uncommon for information collected through survey questions to have no corresponding variable in a dataset. 
     - Variables act as the connection between questions and data
     - Codes are required to interpret categorical values
     - The structure allows someone to trace meaning from value → variable → question → study, as it should reflect real life
@@ -145,7 +150,7 @@ Edit your Excel to include the relationships between the metadata across the wor
 - What is one thing you will do differently when creating or using metadata after this activity?
 
 ??? success "Example answers"
-    There is no single correct answer. The goal is to.....
+    There is no single correct answer.
 
     You may have thought about ...
     
@@ -157,7 +162,7 @@ Edit your Excel to include the relationships between the metadata across the wor
     In the future you may try to...
 
     - think more about what someone else would need to know to decide if the data is suitable
-    - aim to reduce ambiguity in my metadata by making things clearer rather than assuming knowledge
+    - aim to reduce ambiguity in your metadata by making things clearer rather than assuming knowledge
     - check what information might be missing and how that affects usability
     - be more intentional about what metadata to include, prioritising the information that matters most
     - spend more time on metadata and recognise it as part of the research process, not an add-on
