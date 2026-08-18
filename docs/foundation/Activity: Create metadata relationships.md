@@ -21,12 +21,12 @@ date: May 2026
     - Apply good metadata practices to support understanding and reuse of data 
 
 
-In Units X and X, we explored dataset and variable metadata elements and the benefits of creating structured metadata and in unit X we explored the relationships between metadata. In this activity, you will apply this knowledge to a real example dataset.
+In Units 2.5 and 2.8, we explored dataset and variable metadata elements and the benefits of creating structured metadata and in Unit 3 we explored the relationships between metadata. In this activity, you will apply this knowledge to a real example dataset.
 
-We will use Excel to document metadata in this exercise. Excel is widely used, accessible, and familiar to many researchers. It allows you to structure metadata in a clear tabular format, apply basic validation rules, and organise information consistently without requiring specialist software. While other metadata tools exist which produce machine readable output, we will use Excel as a flexible and practical starting point for creating and managing metadata.
+We will use Excel to document metadata in this exercise. While other metadata tools exist which produce machine-readable output, we will use Excel as a flexible and practical starting point for creating and managing metadata. Excel is widely used, accessible, and familiar to many researchers. It allows you to structure metadata in a clear tabular format, apply basic validation rules, and organise information consistently without requiring specialist software. W
 
 !!! important "Excel"
-    Excel has features that can help ensure your metadata is clean, structured and standardised. For example, you can lock cells so that metadata element titles can't be changed or you can control what data can be input into certain metadata fields using data validation tools. This helps us to implement controlled vocabularies in our metadata creation (to recap controlled vocabularies, go to unit 2.5 in the Introduction course) and reduces risk of human errors[1].
+    While Excel does not produce machine-readable format itself, the tables can be exported or transformed into machine readable formats, if the file follows a clear structure, data is clean and it doesn't rely on extra formatting such as colour, merged cells or notes. Excel also has features that can help ensure your metadata is clean, structured and standardised. For example, you can lock cells so that metadata element titles can't be changed or you can control what data can be input into certain metadata fields using data validation tools. This helps us to implement controlled vocabularies in our metadata creation (to recap controlled vocabularies, go to Unit 2.5 in the 'Introduction to Metadata' course) and reduces risk of human errors[1].
 
     You can also download tools compatible with Excel. For example [Collectica for Excel](https://www.colectica.com/software/colecticaforExcel/) is an add-on for Excel which includes pre-defined metadata elements where you can input your metadata directly into the dataset file (rather than having a separate Excel file for your metadata).
 
@@ -70,18 +70,10 @@ If you want to use an alternative teaching dataset, you can find more on the UK 
 
     You can download one of these datasets to practice metadata creation. In order to do this, you can download the dataset as a CSV or Excel file and download the user guide for the data so you have the background information about the dataset.
 
-You want to make sure you preserve your data, documenting it clearly for your own records and share documentation where needed with colleagues and collaborators.
-
-
-
->[!NOTE]
-> Signpost to other training around metadata creation for other forms research data that is not tabular data 
-
-
-
+You want to preserve your data and document it clearly for your own records and share documentation where needed with colleagues and collaborators.
 
 ##Task 1: Create the metadata
-Think about the minimum metadata you would create for this study and dataset. You do not need to document every possible element, but you should include enough detail to allow someone else to understand a couple of the variables. Document metadata at the following levels:
+Think about the minimum metadata you would create for this study and dataset. You do not need to document every possible metadata element, but you should include enough detail to allow someone else to understand a couple of the variables. Document metadata at the following levels:
 
 - Study metadata
 - Question metadata
@@ -132,7 +124,7 @@ Edit your Excel to include the relationships between the metadata across the wor
     - Some questions use controlled response categories, which are defined in codelists
     - Each level is clearly linked using IDs (Study_ID, Dataset_ID, Question_ID)
     - Some questions (for example Q7, Q8 and Q9) include both a categorical response and a free-text response. Meaning, a single question can potentially generate more than one variable. In this example however, the dataset only contains variables for the categorical responses. It is not uncommon for information collected through survey questions to have no corresponding variable in a dataset. 
-    - Variables act as the connection between questions and data
+    - Variable metadata acts as the connection between questions and dataset metadata
     - Codes are required to interpret categorical values
     - The structure allows someone to trace meaning from value → variable → question → study, as it should reflect real life
 
