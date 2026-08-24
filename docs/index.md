@@ -5,6 +5,7 @@
 This is an evolving resource developed by CLOSER's Metadata team to create teaching and upskilling resources to improve the understanding of metadata to support the better use and understanding of research data.
 
 [Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
+[Start the Foundation course](</foundation/0._Getting_started.md>){ .md-button }
 
 ### Improvements and bugs
 
