@@ -2,6 +2,18 @@
 
 ## Self-guided learning by CLOSER's Metadata Team
 
+Metadata is an essential part of the research process, shaping how data can support knowledge creation, reuse, and impact over time. Yet for many people, working with metadata can feel confusing, overly technical, or difficult to engage with. We are often expected to work with metadata when the underlying concepts and terminology are unfamiliar, and it can feel like something you are simply “supposed to know” rather than something you have had the opportunity to properly learn.
+
+Despite its importance, metadata is rarely taught in a formal or structured way. Instead, it is often learned informally, inconsistently, and under pressure, through on the job experience and local conventions or undocumented knowledge. This lack of shared foundations can make it difficult to know where to start, interpret guidance or standards, feel confident, and make consistent decisions.
+
+This course provides a structured introduction to metadata, helping to establish a shared understanding and common language across projects and organisations. By grounding metadata practice in a theoretical foundation, it supports more consistent and intentional decision making about data and metadata. 
+
+Improving metadata competency will enable you to:
+
+- Get more value from research infrastructures and data services
+- Start a new role more productively and confidently, reducing reliance on informal, “on the job” learning
+- Improve metadata creation, research data management, and system development
+
 This is an evolving resource developed by CLOSER's Metadata team to create teaching and upskilling resources to improve the understanding of metadata to support the better use and understanding of research data.
 
 [Start the Introduction course](<introduction/1.0 Module Introduction.md>){ .md-button }
