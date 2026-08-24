@@ -194,3 +194,4 @@ What specific changes would make this metadata record easier to find, and decide
 
 
 Good quality metadata is not just descriptive, it supports different stages of the research lifecycle, such as finding relevant datasets at the start of a project. When key metadata are missing or are unclear, it becomes difficult to judge whether data are relevant, reliable, or usable. In contrast, clear, well-structured and detailed metadata reduces uncertainty, supports informed decision making, and makes research processes easier and more efficient.
+

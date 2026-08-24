@@ -3,14 +3,12 @@ site_name: Understanding Metadata
 theme:
   name: material
   features:
-#    - navigation.expand
-    - navigation.prune  # use this to collapse twhen more than one module is live
+    - navigation.expand
+#    - navigation.prune  # use this to collapse twhen more than one module is live
     - content.tooltips
-  logo: assets/closer.png
+  logo: assets/closer_white.png
   font:
     text: Source Sans Pro  
-  palette:
-    primary: green    
 nav:
   - Introductory course: 
     - Getting started: "introduction/1.0 Module Introduction.md"
