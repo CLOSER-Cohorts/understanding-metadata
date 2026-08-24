@@ -43,6 +43,7 @@ nav:
     - 5.1 Activity - Create Study Metadata: "foundation/Activity: Create study metadata.md"  
     - 5.2 Activity - Create Metadata Relationships: "foundation/Activity: Create metadata relationships.md"  
   - Resources: "resources.md"
+  - Feedback: "Feedback.md"
 markdown_extensions:
   - abbr
   - admonition
