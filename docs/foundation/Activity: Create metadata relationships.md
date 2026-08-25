@@ -36,7 +36,9 @@ We will practice what you've learnt using a small teaching dataset based on the 
 
 Imagine you're a social science researcher who has collected data using the survey below.
 
-<img src="../img/Younglifeandtimes2011Qu.png" alt="Alt Text" width="425" height="900"> 
+<a href="../img/Younglifeandtimes2011Qu.png" target="_blank">
+<img src="../img/Younglifeandtimes2011Qu.png" alt="Page from the Young Life and Times Survey questionnaire. The page contains numbered questions with tick-box response options and spaces for written answers. Topics include family background, length of residence in Northern Ireland, type of area lived in, religious affiliation, community identity, current activities such as school or work, future plans, type of school attended, and description of the respondent’s school. The questionnaire is presented in a two-column layout with decorative yellow graphic elements around the page border." width="425" height="900"> 
+</a>
 
 Through conducting this research you create the following dataset.
 
