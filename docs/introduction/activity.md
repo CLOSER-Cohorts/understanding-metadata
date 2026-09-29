@@ -50,7 +50,7 @@ Identify at least two important gaps or ambiguities and two useful aspects of th
     **Missing or unclear metadata:**
     
     - Creator (who produced the data)  
-    - Population  
+    - The population it is sampling
     - Sample size  
     - Variable list and definitions  
     - Methodology (how data was collected)  
