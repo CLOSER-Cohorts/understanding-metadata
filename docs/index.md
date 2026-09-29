@@ -1,6 +1,6 @@
 # Understanding Metadata
 
-## Self-guided learning by CLOSER's Metadata Team
+## Self-guided learning by CLOSER's Discoverability Team
 
 Metadata is an essential part of the research process, shaping how data can support knowledge creation, reuse, and impact over time. Yet for many people, working with metadata can feel confusing, overly technical, or difficult to engage with. We are often expected to work with metadata when the underlying concepts and terminology are unfamiliar, and it can feel like something you are simply “supposed to know” rather than something you have had the opportunity to properly learn.
 
