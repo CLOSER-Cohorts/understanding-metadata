@@ -6,6 +6,7 @@ theme:
     - navigation.expand
 #    - navigation.prune  # use this to collapse twhen more than one module is live
     - content.tooltips
+  custom_dir: overrides
   logo: assets/closer_white.png
   font:
     text: Source Sans Pro  
