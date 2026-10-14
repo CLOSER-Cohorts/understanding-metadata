@@ -6,13 +6,6 @@ on:
      - cron: "0 8 * * *"
 
 jobs:
-  mkdocs-link-check:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@master
-    - uses: byrnereese/github-action-mkdocs-link-check@1.0
-      with:
-          use-verbose-mode: 'yes'
   linkChecker:
     runs-on: ubuntu-latest
     permissions:
