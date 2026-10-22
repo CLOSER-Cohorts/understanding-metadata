@@ -2,7 +2,7 @@
 
 ## Self-guided learning by CLOSER's Discoverability Team
 
-Metadata is an essential part of the research process, shaping how data can support knowledge creation, reuse, and impact over time. Yet for many people, working with metadata can feel confusing, overly technical, or difficult to engage with. We are often expected to work with metadata when the underlying concepts and terminology are unfamiliar, and it can feel like something you are simply “supposed to know” rather than something you have had the opportunity to properly learn.
+Metadata2 is an essential part of the research process, shaping how data can support knowledge creation, reuse, and impact over time. Yet for many people, working with metadata can feel confusing, overly technical, or difficult to engage with. We are often expected to work with metadata when the underlying concepts and terminology are unfamiliar, and it can feel like something you are simply “supposed to know” rather than something you have had the opportunity to properly learn.
 
 Despite its importance, metadata is rarely taught in a formal or structured way. Instead, it is often learned informally, inconsistently, and under pressure, through on the job experience and local conventions or undocumented knowledge. This lack of shared foundations can make it difficult to know where to start, interpret guidance or standards, feel confident, and make consistent decisions.
 
